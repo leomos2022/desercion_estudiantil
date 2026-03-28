@@ -1,0 +1,74 @@
+{
+  "anio_datos": 2023,
+  "fuente": "SPADIES 3.0 - Ministerio de Educación Nacional",
+  "total_ies": 262,
+  "tda": {
+    "promedio": 15.28,
+    "mediana": 11.49,
+    "minimo": 0.0,
+    "maximo": 80.88,
+    "desviacion": 12.43
+  },
+  "tdca_por_nivel": {
+    "TyT": 51.64,
+    "Universitario": 40.98
+  },
+  "tga_por_nivel": {
+    "TyT": 31.31,
+    "Universitario": 44.84
+  },
+  "top_5_menor_desercion": [
+    {
+      "codigo": 2901,
+      "nombre": "ESCUELA DE INTELIGENCIA Y CONTRAINTELIGENCIA BRIGADIER GENERAL RICARDO CHARRY SOLANO",
+      "2023": 0.0
+    },
+    {
+      "codigo": 2905,
+      "nombre": "CENTRO DE EDUCACION MILITAR - CEMIL",
+      "2023": 0.0
+    },
+    {
+      "codigo": 3834,
+      "nombre": "CORPORACION TECNOLOGICA CATOLICA DE OCCIDENTE - TECOC -",
+      "2023": 0.0
+    },
+    {
+      "codigo": 4805,
+      "nombre": "CORPORACION TECNICA DE COLOMBIA -CORPOTEC-",
+      "2023": 0.0
+    },
+    {
+      "codigo": 9102,
+      "nombre": "ESCUELA DE SUBOFICIALES DE LA FUERZA AEREA COLOMBIANA ANDRES M. DIAZ",
+      "2023": 0.24
+    }
+  ],
+  "top_5_mayor_desercion": [
+    {
+      "codigo": 4705,
+      "nombre": "FUNDACION CENTRO DE EDUCACION SUPERIOR,INVESTIGACION Y PROFESIONALIZACION -CEDINPRO-",
+      "2023": 80.88
+    },
+    {
+      "codigo": 4702,
+      "nombre": "FUNDACION DE EDUCACION SUPERIOR SAN JOSE -FESSANJOSE-",
+      "2023": 75.46
+    },
+    {
+      "codigo": 3829,
+      "nombre": "CORPORACION JHON F. KENNEDY",
+      "2023": 75.0
+    },
+    {
+      "codigo": 2824,
+      "nombre": "CORPORACION UNIVERSITARIA DE COLOMBIA IDEAS",
+      "2023": 74.55
+    },
+    {
+      "codigo": 3724,
+      "nombre": "FUNDACION TECNOLOGICA DE MADRID",
+      "2023": 64.0
+    }
+  ]
+}

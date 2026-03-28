@@ -1,0 +1,2690 @@
+[
+  {
+    "codigo": 1101,
+    "nombre": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+    "nivel": "TyT",
+    "2023": 18.52
+  },
+  {
+    "codigo": 1101,
+    "nombre": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 31.36
+  },
+  {
+    "codigo": 1105,
+    "nombre": "UNIVERSIDAD PEDAGOGICA NACIONAL",
+    "nivel": "Universitario",
+    "2023": 31.88
+  },
+  {
+    "codigo": 1106,
+    "nombre": "UNIVERSIDAD PEDAGOGICA Y TECNOLOGICA DE COLOMBIA - UPTC",
+    "nivel": "TyT",
+    "2023": 46.86
+  },
+  {
+    "codigo": 1106,
+    "nombre": "UNIVERSIDAD PEDAGOGICA Y TECNOLOGICA DE COLOMBIA - UPTC",
+    "nivel": "Universitario",
+    "2023": 30.76
+  },
+  {
+    "codigo": 1110,
+    "nombre": "UNIVERSIDAD DEL CAUCA",
+    "nivel": "TyT",
+    "2023": 45.6
+  },
+  {
+    "codigo": 1110,
+    "nombre": "UNIVERSIDAD DEL CAUCA",
+    "nivel": "Universitario",
+    "2023": 39.57
+  },
+  {
+    "codigo": 1111,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DE PEREIRA - UTP",
+    "nivel": "TyT",
+    "2023": 41.43
+  },
+  {
+    "codigo": 1111,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DE PEREIRA - UTP",
+    "nivel": "Universitario",
+    "2023": 39.17
+  },
+  {
+    "codigo": 1112,
+    "nombre": "UNIVERSIDAD DE CALDAS",
+    "nivel": "TyT",
+    "2023": 41.23
+  },
+  {
+    "codigo": 1112,
+    "nombre": "UNIVERSIDAD DE CALDAS",
+    "nivel": "Universitario",
+    "2023": 43.61
+  },
+  {
+    "codigo": 1113,
+    "nombre": "UNIVERSIDAD DE CORDOBA",
+    "nivel": "TyT",
+    "2023": 35.8
+  },
+  {
+    "codigo": 1113,
+    "nombre": "UNIVERSIDAD DE CORDOBA",
+    "nivel": "Universitario",
+    "2023": 40.84
+  },
+  {
+    "codigo": 1114,
+    "nombre": "UNIVERSIDAD SURCOLOMBIANA",
+    "nivel": "TyT",
+    "2023": 40.09
+  },
+  {
+    "codigo": 1114,
+    "nombre": "UNIVERSIDAD SURCOLOMBIANA",
+    "nivel": "Universitario",
+    "2023": 33.74
+  },
+  {
+    "codigo": 1115,
+    "nombre": "UNIVERSIDAD DE LA AMAZONIA",
+    "nivel": "TyT",
+    "2023": 53.24
+  },
+  {
+    "codigo": 1115,
+    "nombre": "UNIVERSIDAD DE LA AMAZONIA",
+    "nivel": "Universitario",
+    "2023": 41.28
+  },
+  {
+    "codigo": 1117,
+    "nombre": "UNIVERSIDAD MILITAR-NUEVA GRANADA",
+    "nivel": "TyT",
+    "2023": 39.36
+  },
+  {
+    "codigo": 1117,
+    "nombre": "UNIVERSIDAD MILITAR-NUEVA GRANADA",
+    "nivel": "Universitario",
+    "2023": 44.61
+  },
+  {
+    "codigo": 1118,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DEL CHOCO-DIEGO LUIS CORDOBA",
+    "nivel": "TyT",
+    "2023": 37.69
+  },
+  {
+    "codigo": 1118,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DEL CHOCO-DIEGO LUIS CORDOBA",
+    "nivel": "Universitario",
+    "2023": 40.21
+  },
+  {
+    "codigo": 1119,
+    "nombre": "UNIVERSIDAD DE LOS LLANOS",
+    "nivel": "TyT",
+    "2023": 41.05
+  },
+  {
+    "codigo": 1119,
+    "nombre": "UNIVERSIDAD DE LOS LLANOS",
+    "nivel": "Universitario",
+    "2023": 40.16
+  },
+  {
+    "codigo": 1120,
+    "nombre": "UNIVERSIDAD POPULAR DEL CESAR",
+    "nivel": "TyT",
+    "2023": 59.35
+  },
+  {
+    "codigo": 1120,
+    "nombre": "UNIVERSIDAD POPULAR DEL CESAR",
+    "nivel": "Universitario",
+    "2023": 43.21
+  },
+  {
+    "codigo": 1121,
+    "nombre": "UNIVERSIDAD-COLEGIO MAYOR DE CUNDINAMARCA",
+    "nivel": "TyT",
+    "2023": 37.5
+  },
+  {
+    "codigo": 1121,
+    "nombre": "UNIVERSIDAD-COLEGIO MAYOR DE CUNDINAMARCA",
+    "nivel": "Universitario",
+    "2023": 33.16
+  },
+  {
+    "codigo": 1122,
+    "nombre": "UNIVERSIDAD DEL PACIFICO",
+    "nivel": "TyT",
+    "2023": 52.42
+  },
+  {
+    "codigo": 1122,
+    "nombre": "UNIVERSIDAD DEL PACIFICO",
+    "nivel": "Universitario",
+    "2023": 58.05
+  },
+  {
+    "codigo": 1201,
+    "nombre": "UNIVERSIDAD DE ANTIOQUIA",
+    "nivel": "TyT",
+    "2023": 36.57
+  },
+  {
+    "codigo": 1201,
+    "nombre": "UNIVERSIDAD DE ANTIOQUIA",
+    "nivel": "Universitario",
+    "2023": 40.51
+  },
+  {
+    "codigo": 1202,
+    "nombre": "UNIVERSIDAD DEL ATLANTICO",
+    "nivel": "TyT",
+    "2023": 35.08
+  },
+  {
+    "codigo": 1202,
+    "nombre": "UNIVERSIDAD DEL ATLANTICO",
+    "nivel": "Universitario",
+    "2023": 42.01
+  },
+  {
+    "codigo": 1203,
+    "nombre": "UNIVERSIDAD DEL VALLE",
+    "nivel": "TyT",
+    "2023": 50.34
+  },
+  {
+    "codigo": 1203,
+    "nombre": "UNIVERSIDAD DEL VALLE",
+    "nivel": "Universitario",
+    "2023": 40.12
+  },
+  {
+    "codigo": 1204,
+    "nombre": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+    "nivel": "TyT",
+    "2023": 33.66
+  },
+  {
+    "codigo": 1204,
+    "nombre": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+    "nivel": "Universitario",
+    "2023": 25.93
+  },
+  {
+    "codigo": 1205,
+    "nombre": "UNIVERSIDAD DE CARTAGENA",
+    "nivel": "TyT",
+    "2023": 47.65
+  },
+  {
+    "codigo": 1205,
+    "nombre": "UNIVERSIDAD DE CARTAGENA",
+    "nivel": "Universitario",
+    "2023": 33.51
+  },
+  {
+    "codigo": 1206,
+    "nombre": "UNIVERSIDAD DE NARI¿O",
+    "nivel": "TyT",
+    "2023": 32.75
+  },
+  {
+    "codigo": 1206,
+    "nombre": "UNIVERSIDAD DE NARI¿O",
+    "nivel": "Universitario",
+    "2023": 21.7
+  },
+  {
+    "codigo": 1207,
+    "nombre": "UNIVERSIDAD DEL TOLIMA",
+    "nivel": "TyT",
+    "2023": 58.02
+  },
+  {
+    "codigo": 1207,
+    "nombre": "UNIVERSIDAD DEL TOLIMA",
+    "nivel": "Universitario",
+    "2023": 54.53
+  },
+  {
+    "codigo": 1208,
+    "nombre": "UNIVERSIDAD DEL QUINDIO",
+    "nivel": "TyT",
+    "2023": 50.06
+  },
+  {
+    "codigo": 1208,
+    "nombre": "UNIVERSIDAD DEL QUINDIO",
+    "nivel": "Universitario",
+    "2023": 45.47
+  },
+  {
+    "codigo": 1209,
+    "nombre": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+    "nivel": "TyT",
+    "2023": 39.54
+  },
+  {
+    "codigo": 1209,
+    "nombre": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+    "nivel": "Universitario",
+    "2023": 42.26
+  },
+  {
+    "codigo": 1210,
+    "nombre": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+    "nivel": "TyT",
+    "2023": 36.99
+  },
+  {
+    "codigo": 1210,
+    "nombre": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+    "nivel": "Universitario",
+    "2023": 43.34
+  },
+  {
+    "codigo": 1212,
+    "nombre": "UNIVERSIDAD DE PAMPLONA",
+    "nivel": "TyT",
+    "2023": 63.49
+  },
+  {
+    "codigo": 1212,
+    "nombre": "UNIVERSIDAD DE PAMPLONA",
+    "nivel": "Universitario",
+    "2023": 41.76
+  },
+  {
+    "codigo": 1213,
+    "nombre": "UNIVERSIDAD DEL MAGDALENA - UNIMAGDALENA",
+    "nivel": "TyT",
+    "2023": 43.81
+  },
+  {
+    "codigo": 1213,
+    "nombre": "UNIVERSIDAD DEL MAGDALENA - UNIMAGDALENA",
+    "nivel": "Universitario",
+    "2023": 33.36
+  },
+  {
+    "codigo": 1214,
+    "nombre": "UNIVERSIDAD DE CUNDINAMARCA-UDEC",
+    "nivel": "TyT",
+    "2023": 36.81
+  },
+  {
+    "codigo": 1214,
+    "nombre": "UNIVERSIDAD DE CUNDINAMARCA-UDEC",
+    "nivel": "Universitario",
+    "2023": 39.68
+  },
+  {
+    "codigo": 1217,
+    "nombre": "UNIVERSIDAD DE SUCRE",
+    "nivel": "TyT",
+    "2023": 41.49
+  },
+  {
+    "codigo": 1217,
+    "nombre": "UNIVERSIDAD DE SUCRE",
+    "nivel": "Universitario",
+    "2023": 34.58
+  },
+  {
+    "codigo": 1218,
+    "nombre": "UNIVERSIDAD DE LA GUAJIRA",
+    "nivel": "TyT",
+    "2023": 48.97
+  },
+  {
+    "codigo": 1218,
+    "nombre": "UNIVERSIDAD DE LA GUAJIRA",
+    "nivel": "Universitario",
+    "2023": 41.39
+  },
+  {
+    "codigo": 1301,
+    "nombre": "UNIVERSIDAD DISTRITAL-FRANCISCO JOSE DE CALDAS",
+    "nivel": "TyT",
+    "2023": 46.71
+  },
+  {
+    "codigo": 1301,
+    "nombre": "UNIVERSIDAD DISTRITAL-FRANCISCO JOSE DE CALDAS",
+    "nivel": "Universitario",
+    "2023": 51.08
+  },
+  {
+    "codigo": 1701,
+    "nombre": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+    "nivel": "Universitario",
+    "2023": 28.61
+  },
+  {
+    "codigo": 1703,
+    "nombre": "UNIVERSIDAD INCCA DE COLOMBIA",
+    "nivel": "TyT",
+    "2023": 56.53
+  },
+  {
+    "codigo": 1703,
+    "nombre": "UNIVERSIDAD INCCA DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 53.05
+  },
+  {
+    "codigo": 1704,
+    "nombre": "UNIVERSIDAD SANTO TOMAS",
+    "nivel": "TyT",
+    "2023": 29.49
+  },
+  {
+    "codigo": 1704,
+    "nombre": "UNIVERSIDAD SANTO TOMAS",
+    "nivel": "Universitario",
+    "2023": 42.11
+  },
+  {
+    "codigo": 1706,
+    "nombre": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 45.4
+  },
+  {
+    "codigo": 1707,
+    "nombre": "FUNDACION UNIVERSIDAD DE BOGOTA - JORGE TADEO LOZANO",
+    "nivel": "TyT",
+    "2023": 41.16
+  },
+  {
+    "codigo": 1707,
+    "nombre": "FUNDACION UNIVERSIDAD DE BOGOTA - JORGE TADEO LOZANO",
+    "nivel": "Universitario",
+    "2023": 36.21
+  },
+  {
+    "codigo": 1709,
+    "nombre": "UNIVERSIDAD CENTRAL",
+    "nivel": "TyT",
+    "2023": 14.29
+  },
+  {
+    "codigo": 1709,
+    "nombre": "UNIVERSIDAD CENTRAL",
+    "nivel": "Universitario",
+    "2023": 49.36
+  },
+  {
+    "codigo": 1710,
+    "nombre": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+    "nivel": "TyT",
+    "2023": 56.25
+  },
+  {
+    "codigo": 1710,
+    "nombre": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+    "nivel": "Universitario",
+    "2023": 36.02
+  },
+  {
+    "codigo": 1711,
+    "nombre": "UNIVERSIDAD DE LA SABANA",
+    "nivel": "Universitario",
+    "2023": 34.83
+  },
+  {
+    "codigo": 1712,
+    "nombre": "UNIVERSIDAD EAFIT-",
+    "nivel": "Universitario",
+    "2023": 31.16
+  },
+  {
+    "codigo": 1713,
+    "nombre": "UNIVERSIDAD DEL NORTE",
+    "nivel": "Universitario",
+    "2023": 30.3
+  },
+  {
+    "codigo": 1714,
+    "nombre": "COLEGIO MAYOR DE NUESTRA SEÑORA DEL ROSARIO",
+    "nivel": "Universitario",
+    "2023": 29.55
+  },
+  {
+    "codigo": 1715,
+    "nombre": "FUNDACION UNIVERSIDAD DE AMERICA",
+    "nivel": "Universitario",
+    "2023": 29.34
+  },
+  {
+    "codigo": 1718,
+    "nombre": "UNIVERSIDAD DE SAN BUENAVENTURA",
+    "nivel": "TyT",
+    "2023": 54.91
+  },
+  {
+    "codigo": 1718,
+    "nombre": "UNIVERSIDAD DE SAN BUENAVENTURA",
+    "nivel": "Universitario",
+    "2023": 43.07
+  },
+  {
+    "codigo": 1719,
+    "nombre": "UNIVERSIDAD CATOLICA DE COLOMBIA",
+    "nivel": "TyT",
+    "2023": 77.91
+  },
+  {
+    "codigo": 1719,
+    "nombre": "UNIVERSIDAD CATOLICA DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 43.21
+  },
+  {
+    "codigo": 1720,
+    "nombre": "UNIVERSIDAD MARIANA",
+    "nivel": "TyT",
+    "2023": 25.87
+  },
+  {
+    "codigo": 1720,
+    "nombre": "UNIVERSIDAD MARIANA",
+    "nivel": "Universitario",
+    "2023": 26.94
+  },
+  {
+    "codigo": 1722,
+    "nombre": "UNIVERSIDAD DE MANIZALES",
+    "nivel": "TyT",
+    "2023": 44.16
+  },
+  {
+    "codigo": 1722,
+    "nombre": "UNIVERSIDAD DE MANIZALES",
+    "nivel": "Universitario",
+    "2023": 27.63
+  },
+  {
+    "codigo": 1725,
+    "nombre": "FUNDACION UNIVERSIDAD AUTONOMA DE COLOMBIA -FUAC-",
+    "nivel": "Universitario",
+    "2023": 48.91
+  },
+  {
+    "codigo": 1726,
+    "nombre": "UNIVERSIDAD CATOLICA DE ORIENTE -UCO",
+    "nivel": "TyT",
+    "2023": 45.09
+  },
+  {
+    "codigo": 1726,
+    "nombre": "UNIVERSIDAD CATOLICA DE ORIENTE -UCO",
+    "nivel": "Universitario",
+    "2023": 36.96
+  },
+  {
+    "codigo": 1728,
+    "nombre": "UNIVERSIDAD SERGIO ARBOLEDA",
+    "nivel": "TyT",
+    "2023": 33.75
+  },
+  {
+    "codigo": 1728,
+    "nombre": "UNIVERSIDAD SERGIO ARBOLEDA",
+    "nivel": "Universitario",
+    "2023": 38.1
+  },
+  {
+    "codigo": 1729,
+    "nombre": "UNIVERSIDAD EL BOSQUE",
+    "nivel": "Universitario",
+    "2023": 38.58
+  },
+  {
+    "codigo": 1734,
+    "nombre": "UNIVERSIDAD DE BOYACA UNIBOYACA",
+    "nivel": "TyT",
+    "2023": 57.1
+  },
+  {
+    "codigo": 1734,
+    "nombre": "UNIVERSIDAD DE BOYACA UNIBOYACA",
+    "nivel": "Universitario",
+    "2023": 40.19
+  },
+  {
+    "codigo": 1735,
+    "nombre": "UNIVERSIDAD MANUELA BELTRAN-UMB-",
+    "nivel": "TyT",
+    "2023": 56.48
+  },
+  {
+    "codigo": 1735,
+    "nombre": "UNIVERSIDAD MANUELA BELTRAN-UMB-",
+    "nivel": "Universitario",
+    "2023": 46.08
+  },
+  {
+    "codigo": 1801,
+    "nombre": "UNIVERSIDAD LA GRAN COLOMBIA",
+    "nivel": "TyT",
+    "2023": 44.07
+  },
+  {
+    "codigo": 1801,
+    "nombre": "UNIVERSIDAD LA GRAN COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 34.65
+  },
+  {
+    "codigo": 1803,
+    "nombre": "UNIVERSIDAD DE LA SALLE",
+    "nivel": "Universitario",
+    "2023": 32.93
+  },
+  {
+    "codigo": 1804,
+    "nombre": "UNIVERSIDAD AUTONOMA DEL CARIBE- UNIAUTONOMA",
+    "nivel": "TyT",
+    "2023": 49.62
+  },
+  {
+    "codigo": 1804,
+    "nombre": "UNIVERSIDAD AUTONOMA DEL CARIBE- UNIAUTONOMA",
+    "nivel": "Universitario",
+    "2023": 38.34
+  },
+  {
+    "codigo": 1805,
+    "nombre": "UNIVERSIDAD SANTIAGO DE CALI",
+    "nivel": "TyT",
+    "2023": 52.42
+  },
+  {
+    "codigo": 1805,
+    "nombre": "UNIVERSIDAD SANTIAGO DE CALI",
+    "nivel": "Universitario",
+    "2023": 51.36
+  },
+  {
+    "codigo": 1806,
+    "nombre": "UNIVERSIDAD LIBRE",
+    "nivel": "TyT",
+    "2023": 37.35
+  },
+  {
+    "codigo": 1806,
+    "nombre": "UNIVERSIDAD LIBRE",
+    "nivel": "Universitario",
+    "2023": 37.63
+  },
+  {
+    "codigo": 1812,
+    "nombre": "UNIVERSIDAD DE MEDELLIN",
+    "nivel": "TyT",
+    "2023": 53.03
+  },
+  {
+    "codigo": 1812,
+    "nombre": "UNIVERSIDAD DE MEDELLIN",
+    "nivel": "Universitario",
+    "2023": 40.57
+  },
+  {
+    "codigo": 1813,
+    "nombre": "UNIVERSIDAD DE LOS ANDES",
+    "nivel": "Universitario",
+    "2023": 17.15
+  },
+  {
+    "codigo": 1814,
+    "nombre": "UNIVERSIDAD AUTONOMA LATINOAMERICANA-UNAULA-",
+    "nivel": "Universitario",
+    "2023": 51.97
+  },
+  {
+    "codigo": 1815,
+    "nombre": "CORPORACION UNIVERSIDAD PILOTO DE COLOMBIA",
+    "nivel": "TyT",
+    "2023": 54.55
+  },
+  {
+    "codigo": 1815,
+    "nombre": "CORPORACION UNIVERSIDAD PILOTO DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 34.98
+  },
+  {
+    "codigo": 1818,
+    "nombre": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+    "nivel": "TyT",
+    "2023": 48.79
+  },
+  {
+    "codigo": 1818,
+    "nombre": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 43.76
+  },
+  {
+    "codigo": 1823,
+    "nombre": "UNIVERSIDAD AUTONOMA DE BUCARAMANGA-UNAB-",
+    "nivel": "TyT",
+    "2023": 58.05
+  },
+  {
+    "codigo": 1823,
+    "nombre": "UNIVERSIDAD AUTONOMA DE BUCARAMANGA-UNAB-",
+    "nivel": "Universitario",
+    "2023": 36.25
+  },
+  {
+    "codigo": 1824,
+    "nombre": "UNIVERSIDAD METROPOLITANA",
+    "nivel": "Universitario",
+    "2023": 21.96
+  },
+  {
+    "codigo": 1825,
+    "nombre": "UNIVERSIDAD AUTONOMA DE MANIZALES",
+    "nivel": "TyT",
+    "2023": 53.22
+  },
+  {
+    "codigo": 1825,
+    "nombre": "UNIVERSIDAD AUTONOMA DE MANIZALES",
+    "nivel": "Universitario",
+    "2023": 32.33
+  },
+  {
+    "codigo": 1826,
+    "nombre": "UNIVERSIDAD ANTONIO NARIÑO",
+    "nivel": "TyT",
+    "2023": 53.65
+  },
+  {
+    "codigo": 1826,
+    "nombre": "UNIVERSIDAD ANTONIO NARIÑO",
+    "nivel": "Universitario",
+    "2023": 52.37
+  },
+  {
+    "codigo": 1827,
+    "nombre": "UNIVERSIDAD CATOLICA DE MANIZALES",
+    "nivel": "TyT",
+    "2023": 42.19
+  },
+  {
+    "codigo": 1827,
+    "nombre": "UNIVERSIDAD CATOLICA DE MANIZALES",
+    "nivel": "Universitario",
+    "2023": 29.48
+  },
+  {
+    "codigo": 1828,
+    "nombre": "UNIVERSIDAD ICESI",
+    "nivel": "Universitario",
+    "2023": 35.4
+  },
+  {
+    "codigo": 1830,
+    "nombre": "UNIVERSIDAD AUTONOMA DE OCCIDENTE",
+    "nivel": "TyT",
+    "2023": 44.22
+  },
+  {
+    "codigo": 1830,
+    "nombre": "UNIVERSIDAD AUTONOMA DE OCCIDENTE",
+    "nivel": "Universitario",
+    "2023": 43.87
+  },
+  {
+    "codigo": 1831,
+    "nombre": "UNIVERSIDAD DE IBAGUE",
+    "nivel": "TyT",
+    "2023": 51.27
+  },
+  {
+    "codigo": 1831,
+    "nombre": "UNIVERSIDAD DE IBAGUE",
+    "nivel": "Universitario",
+    "2023": 39.08
+  },
+  {
+    "codigo": 1832,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DE BOLIVAR",
+    "nivel": "TyT",
+    "2023": 64.07
+  },
+  {
+    "codigo": 1832,
+    "nombre": "UNIVERSIDAD TECNOLOGICA DE BOLIVAR",
+    "nivel": "Universitario",
+    "2023": 44.32
+  },
+  {
+    "codigo": 1833,
+    "nombre": "UNIVERSIDAD DEL SINU - ELIAS BECHARA ZAINUM - UNISINU -",
+    "nivel": "TyT",
+    "2023": 42.04
+  },
+  {
+    "codigo": 1833,
+    "nombre": "UNIVERSIDAD DEL SINU - ELIAS BECHARA ZAINUM - UNISINU -",
+    "nivel": "Universitario",
+    "2023": 33.73
+  },
+  {
+    "codigo": 1835,
+    "nombre": "UNIVERSIDAD DE CIENCIAS APLICADAS Y AMBIENTALES - UDCA",
+    "nivel": "TyT",
+    "2023": 45.64
+  },
+  {
+    "codigo": 1835,
+    "nombre": "UNIVERSIDAD DE CIENCIAS APLICADAS Y AMBIENTALES - UDCA",
+    "nivel": "Universitario",
+    "2023": 42.33
+  },
+  {
+    "codigo": 2102,
+    "nombre": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD",
+    "nivel": "TyT",
+    "2023": 68.09
+  },
+  {
+    "codigo": 2102,
+    "nombre": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD",
+    "nivel": "Universitario",
+    "2023": 65.63
+  },
+  {
+    "codigo": 2104,
+    "nombre": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA-ESAP-",
+    "nivel": "TyT",
+    "2023": 58.1
+  },
+  {
+    "codigo": 2104,
+    "nombre": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA-ESAP-",
+    "nivel": "Universitario",
+    "2023": 53.84
+  },
+  {
+    "codigo": 2106,
+    "nombre": "DIRECCION NACIONAL DE ESCUELAS",
+    "nivel": "TyT",
+    "2023": 12.55
+  },
+  {
+    "codigo": 2106,
+    "nombre": "DIRECCION NACIONAL DE ESCUELAS",
+    "nivel": "Universitario",
+    "2023": 26.26
+  },
+  {
+    "codigo": 2110,
+    "nombre": "COLEGIO MAYOR DE ANTIOQUIA",
+    "nivel": "TyT",
+    "2023": 48.1
+  },
+  {
+    "codigo": 2110,
+    "nombre": "COLEGIO MAYOR DE ANTIOQUIA",
+    "nivel": "Universitario",
+    "2023": 44.98
+  },
+  {
+    "codigo": 2114,
+    "nombre": "ESCUELA NACIONAL DEL DEPORTE",
+    "nivel": "TyT",
+    "2023": 40.69
+  },
+  {
+    "codigo": 2114,
+    "nombre": "ESCUELA NACIONAL DEL DEPORTE",
+    "nivel": "Universitario",
+    "2023": 36.53
+  },
+  {
+    "codigo": 2206,
+    "nombre": "INSTITUTO DEPARTAMENTAL DE BELLAS ARTES",
+    "nivel": "Universitario",
+    "2023": 40.33
+  },
+  {
+    "codigo": 2207,
+    "nombre": "INSTITUTO UNIVERSITARIO DE LA PAZ",
+    "nivel": "TyT",
+    "2023": 46.81
+  },
+  {
+    "codigo": 2207,
+    "nombre": "INSTITUTO UNIVERSITARIO DE LA PAZ",
+    "nivel": "Universitario",
+    "2023": 50.84
+  },
+  {
+    "codigo": 2208,
+    "nombre": "CONSERVATORIO DEL TOLIMA",
+    "nivel": "TyT",
+    "2023": 44.44
+  },
+  {
+    "codigo": 2208,
+    "nombre": "CONSERVATORIO DEL TOLIMA",
+    "nivel": "Universitario",
+    "2023": 40.95
+  },
+  {
+    "codigo": 2209,
+    "nombre": "POLITECNICO COLOMBIANO JAIME ISAZA CADAVID",
+    "nivel": "TyT",
+    "2023": 43.69
+  },
+  {
+    "codigo": 2209,
+    "nombre": "POLITECNICO COLOMBIANO JAIME ISAZA CADAVID",
+    "nivel": "Universitario",
+    "2023": 43.23
+  },
+  {
+    "codigo": 2211,
+    "nombre": "INSTITUCION UNIVERSITARIA BELLAS ARTES Y CIENCIAS DE BOLIVAR",
+    "nivel": "Universitario",
+    "2023": 55.5
+  },
+  {
+    "codigo": 2301,
+    "nombre": "UNIDAD CENTRAL DEL VALLE DEL CAUCA",
+    "nivel": "TyT",
+    "2023": 45.04
+  },
+  {
+    "codigo": 2301,
+    "nombre": "UNIDAD CENTRAL DEL VALLE DEL CAUCA",
+    "nivel": "Universitario",
+    "2023": 31.97
+  },
+  {
+    "codigo": 2302,
+    "nombre": "INSTITUCION UNIVERSITARIA DE ENVIGADO",
+    "nivel": "TyT",
+    "2023": 78.5
+  },
+  {
+    "codigo": 2302,
+    "nombre": "INSTITUCION UNIVERSITARIA DE ENVIGADO",
+    "nivel": "Universitario",
+    "2023": 43.22
+  },
+  {
+    "codigo": 2701,
+    "nombre": "INSTITUCION UNIVERSITARIA COLEGIOS DE COLOMBIA - UNICOC",
+    "nivel": "Universitario",
+    "2023": 27.65
+  },
+  {
+    "codigo": 2702,
+    "nombre": "FUNDACION UNIVERSITARIA DE CIENCIAS DE LA SALUD",
+    "nivel": "TyT",
+    "2023": 26.84
+  },
+  {
+    "codigo": 2702,
+    "nombre": "FUNDACION UNIVERSITARIA DE CIENCIAS DE LA SALUD",
+    "nivel": "Universitario",
+    "2023": 29.89
+  },
+  {
+    "codigo": 2704,
+    "nombre": "COLEGIO DE ESTUDIOS SUPERIORES DE ADMINISTRACION-CESA-",
+    "nivel": "Universitario",
+    "2023": 25.29
+  },
+  {
+    "codigo": 2707,
+    "nombre": "FUNDACION UNIVERSITARIA JUAN N. CORPAS",
+    "nivel": "Universitario",
+    "2023": 30.44
+  },
+  {
+    "codigo": 2708,
+    "nombre": "UNIVERSIDAD CES",
+    "nivel": "TyT",
+    "2023": 35.72
+  },
+  {
+    "codigo": 2708,
+    "nombre": "UNIVERSIDAD CES",
+    "nivel": "Universitario",
+    "2023": 29.52
+  },
+  {
+    "codigo": 2709,
+    "nombre": "FUNDACION UNIVERSITARIA SAN MARTIN",
+    "nivel": "Universitario",
+    "2023": 63.15
+  },
+  {
+    "codigo": 2710,
+    "nombre": "FUNDACION UNIVERSITARIA MONSERRATE -UNIMONSERRATE",
+    "nivel": "TyT",
+    "2023": 55.89
+  },
+  {
+    "codigo": 2710,
+    "nombre": "FUNDACION UNIVERSITARIA MONSERRATE -UNIMONSERRATE",
+    "nivel": "Universitario",
+    "2023": 44.3
+  },
+  {
+    "codigo": 2711,
+    "nombre": "UNIVERSIDAD CATOLICA DE PEREIRA",
+    "nivel": "TyT",
+    "2023": 57.32
+  },
+  {
+    "codigo": 2711,
+    "nombre": "UNIVERSIDAD CATOLICA DE PEREIRA",
+    "nivel": "Universitario",
+    "2023": 42.48
+  },
+  {
+    "codigo": 2712,
+    "nombre": "FUNDACION UNIVERSITARIA KONRAD LORENZ",
+    "nivel": "Universitario",
+    "2023": 43.61
+  },
+  {
+    "codigo": 2713,
+    "nombre": "FUNDACION UNIVERSITARIA LOS LIBERTADORES",
+    "nivel": "TyT",
+    "2023": 47.57
+  },
+  {
+    "codigo": 2713,
+    "nombre": "FUNDACION UNIVERSITARIA LOS LIBERTADORES",
+    "nivel": "Universitario",
+    "2023": 38.6
+  },
+  {
+    "codigo": 2715,
+    "nombre": "FUNDACION UNIVERSITARIA DE POPAYAN",
+    "nivel": "TyT",
+    "2023": 47.83
+  },
+  {
+    "codigo": 2715,
+    "nombre": "FUNDACION UNIVERSITARIA DE POPAYAN",
+    "nivel": "Universitario",
+    "2023": 43.28
+  },
+  {
+    "codigo": 2719,
+    "nombre": "UNIVERSIDAD CAT¿LICA LUIS AMIG¿",
+    "nivel": "TyT",
+    "2023": 51.79
+  },
+  {
+    "codigo": 2719,
+    "nombre": "UNIVERSIDAD CAT¿LICA LUIS AMIG¿",
+    "nivel": "Universitario",
+    "2023": 35.64
+  },
+  {
+    "codigo": 2720,
+    "nombre": "FUNDACION UNIVERSITARIA JUAN DE CASTELLANOS",
+    "nivel": "TyT",
+    "2023": 51.71
+  },
+  {
+    "codigo": 2720,
+    "nombre": "FUNDACION UNIVERSITARIA JUAN DE CASTELLANOS",
+    "nivel": "Universitario",
+    "2023": 40.14
+  },
+  {
+    "codigo": 2721,
+    "nombre": "FUNDACION UNIVERSITARIA MARIA CANO",
+    "nivel": "TyT",
+    "2023": 74.58
+  },
+  {
+    "codigo": 2721,
+    "nombre": "FUNDACION UNIVERSITARIA MARIA CANO",
+    "nivel": "Universitario",
+    "2023": 27.9
+  },
+  {
+    "codigo": 2722,
+    "nombre": "FUNDACION CENTRO UNIVERSITARIO DE BIENESTAR RURAL",
+    "nivel": "TyT",
+    "2023": 88.89
+  },
+  {
+    "codigo": 2723,
+    "nombre": "FUNDACION UNIVERSITARIA AGRARIA DE COLOMBIA -UNIAGRARIA-",
+    "nivel": "Universitario",
+    "2023": 35.37
+  },
+  {
+    "codigo": 2724,
+    "nombre": "FUNDACION UNIVERSITARIA DE SAN GIL - UNISANGIL -",
+    "nivel": "TyT",
+    "2023": 43.82
+  },
+  {
+    "codigo": 2724,
+    "nombre": "FUNDACION UNIVERSITARIA DE SAN GIL - UNISANGIL -",
+    "nivel": "Universitario",
+    "2023": 42.23
+  },
+  {
+    "codigo": 2725,
+    "nombre": "POLITECNICO GRANCOLOMBIANO",
+    "nivel": "TyT",
+    "2023": 45.65
+  },
+  {
+    "codigo": 2725,
+    "nombre": "POLITECNICO GRANCOLOMBIANO",
+    "nivel": "Universitario",
+    "2023": 41.61
+  },
+  {
+    "codigo": 2727,
+    "nombre": "FUNDACION UNIVERSITARIA-CEIPA-",
+    "nivel": "TyT",
+    "2023": 30.61
+  },
+  {
+    "codigo": 2727,
+    "nombre": "FUNDACION UNIVERSITARIA-CEIPA-",
+    "nivel": "Universitario",
+    "2023": 57.77
+  },
+  {
+    "codigo": 2728,
+    "nombre": "FUNDACION UNIVERSITARIA DEL AREA ANDINA",
+    "nivel": "TyT",
+    "2023": 47.09
+  },
+  {
+    "codigo": 2728,
+    "nombre": "FUNDACION UNIVERSITARIA DEL AREA ANDINA",
+    "nivel": "Universitario",
+    "2023": 39.05
+  },
+  {
+    "codigo": 2730,
+    "nombre": "FUNDACION ESCUELA COLOMBIANA DE REHABILITACION",
+    "nivel": "Universitario",
+    "2023": 34.33
+  },
+  {
+    "codigo": 2731,
+    "nombre": "FUNDACION UNIVERSITARIA CATOLICA LUMEN GENTIUM",
+    "nivel": "TyT",
+    "2023": 46.63
+  },
+  {
+    "codigo": 2731,
+    "nombre": "FUNDACION UNIVERSITARIA CATOLICA LUMEN GENTIUM",
+    "nivel": "Universitario",
+    "2023": 49.76
+  },
+  {
+    "codigo": 2732,
+    "nombre": "FUNDACION UNIVERSITARIA CATOLICA DEL NORTE",
+    "nivel": "TyT",
+    "2023": 59.61
+  },
+  {
+    "codigo": 2732,
+    "nombre": "FUNDACION UNIVERSITARIA CATOLICA DEL NORTE",
+    "nivel": "Universitario",
+    "2023": 47.92
+  },
+  {
+    "codigo": 2733,
+    "nombre": "FUNDACIÓN UNIVERSITARIA SAN ALFONSO- FUSA-",
+    "nivel": "Universitario",
+    "2023": 56.43
+  },
+  {
+    "codigo": 2736,
+    "nombre": "FUNDACION UNIVERSITARIA SEMINARIO BIBLICO DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 34.85
+  },
+  {
+    "codigo": 2738,
+    "nombre": "FUNDACION UNIVERSITARIA EMPRESARIAL DE LA CAMARA DE COMERCIO DE BOGOTA",
+    "nivel": "TyT",
+    "2023": 38.69
+  },
+  {
+    "codigo": 2738,
+    "nombre": "FUNDACION UNIVERSITARIA EMPRESARIAL DE LA CAMARA DE COMERCIO DE BOGOTA",
+    "nivel": "Universitario",
+    "2023": 40.4
+  },
+  {
+    "codigo": 2739,
+    "nombre": "FUNDACION DE ESTUDIOS SUPERIORES UNIVERSITARIOS DE URABA ANTONIO ROLDAN BETANCUR",
+    "nivel": "TyT",
+    "2023": 47.85
+  },
+  {
+    "codigo": 2739,
+    "nombre": "FUNDACION DE ESTUDIOS SUPERIORES UNIVERSITARIOS DE URABA ANTONIO ROLDAN BETANCUR",
+    "nivel": "Universitario",
+    "2023": 63.52
+  },
+  {
+    "codigo": 2740,
+    "nombre": "INSTITUCION UNIVERSITARIA COLOMBO AMERICANA - UNICA",
+    "nivel": "Universitario",
+    "2023": 43.83
+  },
+  {
+    "codigo": 2741,
+    "nombre": "FUNDACION DE ESTUDIOS SUPERIORES - MONSEÑOR ABRAHAM ESCUDERO MONTOYA  - FUNDES",
+    "nivel": "Universitario",
+    "2023": 34.17
+  },
+  {
+    "codigo": 2743,
+    "nombre": "FUNDACION UNIVERSITARIA INTERNACIONAL DEL TROPICO AMERICANO",
+    "nivel": "TyT",
+    "2023": 37.62
+  },
+  {
+    "codigo": 2743,
+    "nombre": "FUNDACION UNIVERSITARIA INTERNACIONAL DEL TROPICO AMERICANO",
+    "nivel": "Universitario",
+    "2023": 46.24
+  },
+  {
+    "codigo": 2744,
+    "nombre": "INSTITUCION UNIVERSITARIA CENTRO DE ESTUDIOS SUPERIORES MARIA GORETTI",
+    "nivel": "TyT",
+    "2023": 41.52
+  },
+  {
+    "codigo": 2744,
+    "nombre": "INSTITUCION UNIVERSITARIA CENTRO DE ESTUDIOS SUPERIORES MARIA GORETTI",
+    "nivel": "Universitario",
+    "2023": 33.32
+  },
+  {
+    "codigo": 2745,
+    "nombre": "FUNDACI¿N UNIVERSITARIA COMPENSAR",
+    "nivel": "TyT",
+    "2023": 52.82
+  },
+  {
+    "codigo": 2745,
+    "nombre": "FUNDACI¿N UNIVERSITARIA COMPENSAR",
+    "nivel": "Universitario",
+    "2023": 58.94
+  },
+  {
+    "codigo": 2746,
+    "nombre": "FUNDACION UNIVERSITARIA SANITAS",
+    "nivel": "Universitario",
+    "2023": 44.98
+  },
+  {
+    "codigo": 2747,
+    "nombre": "FUNDACION UNIVERSITARIA AUTONOMA DE LAS AMERICAS",
+    "nivel": "TyT",
+    "2023": 41.06
+  },
+  {
+    "codigo": 2747,
+    "nombre": "FUNDACION UNIVERSITARIA AUTONOMA DE LAS AMERICAS",
+    "nivel": "Universitario",
+    "2023": 35.31
+  },
+  {
+    "codigo": 2748,
+    "nombre": "FUNDACION UNIVERSITARIA SEMINARIO TEOLOGICO BAUTISTA INTERNACIONAL",
+    "nivel": "Universitario",
+    "2023": 49.94
+  },
+  {
+    "codigo": 2749,
+    "nombre": "INSTITUCION UNIVERSITARIA  SALAZAR Y HERRERA",
+    "nivel": "TyT",
+    "2023": 39.33
+  },
+  {
+    "codigo": 2749,
+    "nombre": "INSTITUCION UNIVERSITARIA  SALAZAR Y HERRERA",
+    "nivel": "Universitario",
+    "2023": 39.11
+  },
+  {
+    "codigo": 2805,
+    "nombre": "UNIVERSIDAD SIMON BOLIVAR",
+    "nivel": "TyT",
+    "2023": 54.02
+  },
+  {
+    "codigo": 2805,
+    "nombre": "UNIVERSIDAD SIMON BOLIVAR",
+    "nivel": "Universitario",
+    "2023": 39.61
+  },
+  {
+    "codigo": 2810,
+    "nombre": "CORPORACION UNIVERSIDAD DE LA COSTA CUC",
+    "nivel": "TyT",
+    "2023": 68.81
+  },
+  {
+    "codigo": 2810,
+    "nombre": "CORPORACION UNIVERSIDAD DE LA COSTA CUC",
+    "nivel": "Universitario",
+    "2023": 41.88
+  },
+  {
+    "codigo": 2811,
+    "nombre": "ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO",
+    "nivel": "Universitario",
+    "2023": 57.77
+  },
+  {
+    "codigo": 2812,
+    "nombre": "UNIVERSIDAD EAN",
+    "nivel": "Universitario",
+    "2023": 36.23
+  },
+  {
+    "codigo": 2813,
+    "nombre": "UNIVERSIDAD EIA",
+    "nivel": "Universitario",
+    "2023": 36.09
+  },
+  {
+    "codigo": 2815,
+    "nombre": "CORPORACION UNIVERSITARIA ADVENTISTA - UNAC",
+    "nivel": "TyT",
+    "2023": 34.39
+  },
+  {
+    "codigo": 2815,
+    "nombre": "CORPORACION UNIVERSITARIA ADVENTISTA - UNAC",
+    "nivel": "Universitario",
+    "2023": 34.95
+  },
+  {
+    "codigo": 2818,
+    "nombre": "CORPORACION UNIVERSITARIA DE SANTA ROSA DE CABAL-UNISARC-",
+    "nivel": "TyT",
+    "2023": 52.06
+  },
+  {
+    "codigo": 2818,
+    "nombre": "CORPORACION UNIVERSITARIA DE SANTA ROSA DE CABAL-UNISARC-",
+    "nivel": "Universitario",
+    "2023": 49.27
+  },
+  {
+    "codigo": 2820,
+    "nombre": "CORPORACION UNIVERSITARIA LASALLISTA",
+    "nivel": "TyT",
+    "2023": 93.81
+  },
+  {
+    "codigo": 2820,
+    "nombre": "CORPORACION UNIVERSITARIA LASALLISTA",
+    "nivel": "Universitario",
+    "2023": 50.61
+  },
+  {
+    "codigo": 2823,
+    "nombre": "CORPORACION UNIVERSITARIA DEL CARIBE - CECAR",
+    "nivel": "TyT",
+    "2023": 67.02
+  },
+  {
+    "codigo": 2823,
+    "nombre": "CORPORACION UNIVERSITARIA DEL CARIBE - CECAR",
+    "nivel": "Universitario",
+    "2023": 38.56
+  },
+  {
+    "codigo": 2824,
+    "nombre": "CORPORACION UNIVERSITARIA DE COLOMBIA IDEAS",
+    "nivel": "Universitario",
+    "2023": 83.52
+  },
+  {
+    "codigo": 2825,
+    "nombre": "CORPORACION UNIVERSITARIA RAFAEL NUÑEZ",
+    "nivel": "TyT",
+    "2023": 44.64
+  },
+  {
+    "codigo": 2825,
+    "nombre": "CORPORACION UNIVERSITARIA RAFAEL NUÑEZ",
+    "nivel": "Universitario",
+    "2023": 47.76
+  },
+  {
+    "codigo": 2827,
+    "nombre": "CORPORACION UNIVERSITARIA DEL META - UNIMETA",
+    "nivel": "TyT",
+    "2023": 50.48
+  },
+  {
+    "codigo": 2827,
+    "nombre": "CORPORACION UNIVERSITARIA DEL META - UNIMETA",
+    "nivel": "Universitario",
+    "2023": 30.97
+  },
+  {
+    "codigo": 2828,
+    "nombre": "CORPORACION UNIVERSITARIA DEL HUILA-CORHUILA-",
+    "nivel": "Universitario",
+    "2023": 46.95
+  },
+  {
+    "codigo": 2829,
+    "nombre": "CORPORACION UNIVERSITARIA MINUTO DE DIOS -UNIMINUTO-",
+    "nivel": "TyT",
+    "2023": 47.14
+  },
+  {
+    "codigo": 2829,
+    "nombre": "CORPORACION UNIVERSITARIA MINUTO DE DIOS -UNIMINUTO-",
+    "nivel": "Universitario",
+    "2023": 39.4
+  },
+  {
+    "codigo": 2830,
+    "nombre": "CORPORACION UNIVERSITARIA IBEROAMERICANA",
+    "nivel": "TyT",
+    "2023": 52.57
+  },
+  {
+    "codigo": 2830,
+    "nombre": "CORPORACION UNIVERSITARIA IBEROAMERICANA",
+    "nivel": "Universitario",
+    "2023": 41.85
+  },
+  {
+    "codigo": 2831,
+    "nombre": "CORPORACION UNIVERSITARIA DE CIENCIA Y DESARROLLO - UNICIENCIA",
+    "nivel": "Universitario",
+    "2023": 46.74
+  },
+  {
+    "codigo": 2832,
+    "nombre": "UNIVERSIDAD DE SANTANDER - UDES",
+    "nivel": "TyT",
+    "2023": 49.76
+  },
+  {
+    "codigo": 2832,
+    "nombre": "UNIVERSIDAD DE SANTANDER - UDES",
+    "nivel": "Universitario",
+    "2023": 47.77
+  },
+  {
+    "codigo": 2833,
+    "nombre": "CORPORACION UNIVERSITARIA REMINGTON",
+    "nivel": "TyT",
+    "2023": 48.38
+  },
+  {
+    "codigo": 2833,
+    "nombre": "CORPORACION UNIVERSITARIA REMINGTON",
+    "nivel": "Universitario",
+    "2023": 44.27
+  },
+  {
+    "codigo": 2834,
+    "nombre": "UNIVERSITARIA AGUSTINIANA- UNIAGUSTINIANA",
+    "nivel": "TyT",
+    "2023": 43.52
+  },
+  {
+    "codigo": 2834,
+    "nombre": "UNIVERSITARIA AGUSTINIANA- UNIAGUSTINIANA",
+    "nivel": "Universitario",
+    "2023": 39.17
+  },
+  {
+    "codigo": 2836,
+    "nombre": "CORPORACION UNIVERSITARIA EMPRESARIAL DE SALAMANCA",
+    "nivel": "TyT",
+    "2023": 62.36
+  },
+  {
+    "codigo": 2836,
+    "nombre": "CORPORACION UNIVERSITARIA EMPRESARIAL DE SALAMANCA",
+    "nivel": "Universitario",
+    "2023": 64.11
+  },
+  {
+    "codigo": 2837,
+    "nombre": "CORPORACION UNIVERSITARIA REPUBLICANA",
+    "nivel": "Universitario",
+    "2023": 51.9
+  },
+  {
+    "codigo": 2838,
+    "nombre": "CORPORACION COLEGIATURA COLOMBIANA",
+    "nivel": "TyT",
+    "2023": 0.0
+  },
+  {
+    "codigo": 2838,
+    "nombre": "CORPORACION COLEGIATURA COLOMBIANA",
+    "nivel": "Universitario",
+    "2023": 32.24
+  },
+  {
+    "codigo": 2840,
+    "nombre": "CORPORACION UNIVERSITARIA EMPRESARIAL ALEXANDER VON HUMBOLDT - CUE",
+    "nivel": "Universitario",
+    "2023": 36.03
+  },
+  {
+    "codigo": 2842,
+    "nombre": "CORPORACION UNIVERSITARIA REFORMADA - CUR -",
+    "nivel": "TyT",
+    "2023": 42.11
+  },
+  {
+    "codigo": 2842,
+    "nombre": "CORPORACION UNIVERSITARIA REFORMADA - CUR -",
+    "nivel": "Universitario",
+    "2023": 50.65
+  },
+  {
+    "codigo": 2847,
+    "nombre": "CORPORACION UNIVERSIDAD DE INVESTIGACION Y DESARROLLO - UDI",
+    "nivel": "TyT",
+    "2023": 57.32
+  },
+  {
+    "codigo": 2847,
+    "nombre": "CORPORACION UNIVERSIDAD DE INVESTIGACION Y DESARROLLO - UDI",
+    "nivel": "Universitario",
+    "2023": 45.81
+  },
+  {
+    "codigo": 2848,
+    "nombre": "CORPORACION UNIVERSITARIA  UNITEC",
+    "nivel": "TyT",
+    "2023": 53.1
+  },
+  {
+    "codigo": 2848,
+    "nombre": "CORPORACION UNIVERSITARIA  UNITEC",
+    "nivel": "Universitario",
+    "2023": 48.36
+  },
+  {
+    "codigo": 2849,
+    "nombre": "CORPORACION UNIVERSITARIA AUTONOMA DEL CAUCA",
+    "nivel": "TyT",
+    "2023": 95.45
+  },
+  {
+    "codigo": 2849,
+    "nombre": "CORPORACION UNIVERSITARIA AUTONOMA DEL CAUCA",
+    "nivel": "Universitario",
+    "2023": 42.52
+  },
+  {
+    "codigo": 2850,
+    "nombre": "CORPORACION UNIVERSITARIA ANTONIO JOSE DE SUCRE - CORPOSUCRE",
+    "nivel": "TyT",
+    "2023": 66.28
+  },
+  {
+    "codigo": 2850,
+    "nombre": "CORPORACION UNIVERSITARIA ANTONIO JOSE DE SUCRE - CORPOSUCRE",
+    "nivel": "Universitario",
+    "2023": 39.56
+  },
+  {
+    "codigo": 2901,
+    "nombre": "ESCUELA DE INTELIGENCIA Y CONTRAINTELIGENCIA BRIGADIER GENERAL RICARDO CHARRY SOLANO",
+    "nivel": "TyT",
+    "2023": 51.6
+  },
+  {
+    "codigo": 2901,
+    "nombre": "ESCUELA DE INTELIGENCIA Y CONTRAINTELIGENCIA BRIGADIER GENERAL RICARDO CHARRY SOLANO",
+    "nivel": "Universitario",
+    "2023": 39.22
+  },
+  {
+    "codigo": 2902,
+    "nombre": "ESCUELA DE LOGISTICA",
+    "nivel": "Universitario",
+    "2023": 30.11
+  },
+  {
+    "codigo": 2903,
+    "nombre": "ESCUELA DE COMUNICACIONES",
+    "nivel": "TyT",
+    "2023": 20.29
+  },
+  {
+    "codigo": 2903,
+    "nombre": "ESCUELA DE COMUNICACIONES",
+    "nivel": "Universitario",
+    "2023": 38.93
+  },
+  {
+    "codigo": 2905,
+    "nombre": "CENTRO DE EDUCACION MILITAR - CEMIL",
+    "nivel": "TyT",
+    "2023": 16.03
+  },
+  {
+    "codigo": 2905,
+    "nombre": "CENTRO DE EDUCACION MILITAR - CEMIL",
+    "nivel": "Universitario",
+    "2023": 49.07
+  },
+  {
+    "codigo": 3102,
+    "nombre": "INSTITUTO SUPERIOR DE EDUCACION RURAL-ISER-",
+    "nivel": "TyT",
+    "2023": 54.13
+  },
+  {
+    "codigo": 3102,
+    "nombre": "INSTITUTO SUPERIOR DE EDUCACION RURAL-ISER-",
+    "nivel": "Universitario",
+    "2023": 47.16
+  },
+  {
+    "codigo": 3103,
+    "nombre": "COLEGIO MAYOR DE BOLIVAR",
+    "nivel": "TyT",
+    "2023": 38.09
+  },
+  {
+    "codigo": 3103,
+    "nombre": "COLEGIO MAYOR DE BOLIVAR",
+    "nivel": "Universitario",
+    "2023": 7.76
+  },
+  {
+    "codigo": 3104,
+    "nombre": "COLEGIO MAYOR DEL CAUCA",
+    "nivel": "TyT",
+    "2023": 41.16
+  },
+  {
+    "codigo": 3104,
+    "nombre": "COLEGIO MAYOR DEL CAUCA",
+    "nivel": "Universitario",
+    "2023": 37.93
+  },
+  {
+    "codigo": 3107,
+    "nombre": "INSTITUCIÓN UNIVERSITARIA PASCUAL BRAVO",
+    "nivel": "TyT",
+    "2023": 60.12
+  },
+  {
+    "codigo": 3107,
+    "nombre": "INSTITUCIÓN UNIVERSITARIA PASCUAL BRAVO",
+    "nivel": "Universitario",
+    "2023": 46.21
+  },
+  {
+    "codigo": 3114,
+    "nombre": "ESCUELA NAVAL DE SUBOFICIALES ARC BARRANQUILLA",
+    "nivel": "TyT",
+    "2023": 47.56
+  },
+  {
+    "codigo": 3115,
+    "nombre": "INSTITUTO TECNOLOGICO DEL PUTUMAYO",
+    "nivel": "TyT",
+    "2023": 55.34
+  },
+  {
+    "codigo": 3115,
+    "nombre": "INSTITUTO TECNOLOGICO DEL PUTUMAYO",
+    "nivel": "Universitario",
+    "2023": 41.51
+  },
+  {
+    "codigo": 3117,
+    "nombre": "INSTITUCIÓN UNIVERSITARIA ITSA",
+    "nivel": "TyT",
+    "2023": 59.07
+  },
+  {
+    "codigo": 3117,
+    "nombre": "INSTITUCIÓN UNIVERSITARIA ITSA",
+    "nivel": "Universitario",
+    "2023": 76.29
+  },
+  {
+    "codigo": 3201,
+    "nombre": "UNIDADES TECNOLOGICAS DE SANTANDER",
+    "nivel": "TyT",
+    "2023": 49.97
+  },
+  {
+    "codigo": 3201,
+    "nombre": "UNIDADES TECNOLOGICAS DE SANTANDER",
+    "nivel": "Universitario",
+    "2023": 16.25
+  },
+  {
+    "codigo": 3204,
+    "nombre": "TECNOLOGICO DE ANTIOQUIA",
+    "nivel": "TyT",
+    "2023": 44.8
+  },
+  {
+    "codigo": 3204,
+    "nombre": "TECNOLOGICO DE ANTIOQUIA",
+    "nivel": "Universitario",
+    "2023": 33.64
+  },
+  {
+    "codigo": 3301,
+    "nombre": "INSTITUCION UNIVERSITARIA ANTONIO JOSE CAMACHO",
+    "nivel": "TyT",
+    "2023": 50.36
+  },
+  {
+    "codigo": 3301,
+    "nombre": "INSTITUCION UNIVERSITARIA ANTONIO JOSE CAMACHO",
+    "nivel": "Universitario",
+    "2023": 41.56
+  },
+  {
+    "codigo": 3302,
+    "nombre": "INSTITUTO TECNOLOGICO METROPOLITANO",
+    "nivel": "TyT",
+    "2023": 57.26
+  },
+  {
+    "codigo": 3302,
+    "nombre": "INSTITUTO TECNOLOGICO METROPOLITANO",
+    "nivel": "Universitario",
+    "2023": 47.07
+  },
+  {
+    "codigo": 3303,
+    "nombre": "ESCUELA SUPERIOR TECNOLOGICA DE ARTES DEBORA ARANGO",
+    "nivel": "TyT",
+    "2023": 46.77
+  },
+  {
+    "codigo": 3702,
+    "nombre": "FUNDACION TECNOLOGICA AUTONOMA DE BOGOTA-FABA-",
+    "nivel": "TyT",
+    "2023": 48.27
+  },
+  {
+    "codigo": 3703,
+    "nombre": "FUNDACION ESCUELA COLOMBIANA DE MERCADOTECNIA -ESCOLME-",
+    "nivel": "TyT",
+    "2023": 30.11
+  },
+  {
+    "codigo": 3703,
+    "nombre": "FUNDACION ESCUELA COLOMBIANA DE MERCADOTECNIA -ESCOLME-",
+    "nivel": "Universitario",
+    "2023": 14.88
+  },
+  {
+    "codigo": 3705,
+    "nombre": "FUNDACION UNIVERSITARIA TECNOLOGICO COMFENALCO - CARTAGENA",
+    "nivel": "TyT",
+    "2023": 42.18
+  },
+  {
+    "codigo": 3705,
+    "nombre": "FUNDACION UNIVERSITARIA TECNOLOGICO COMFENALCO - CARTAGENA",
+    "nivel": "Universitario",
+    "2023": 36.3
+  },
+  {
+    "codigo": 3706,
+    "nombre": "FUNDACION CENTRO COLOMBIANO DE ESTUDIOS PROFESIONALES, -F.C.E.C.E.P.",
+    "nivel": "TyT",
+    "2023": 51.45
+  },
+  {
+    "codigo": 3710,
+    "nombre": "FUNDACION UNIVERSITARIA ANTONIO DE AREVALO - UNITECNAR",
+    "nivel": "TyT",
+    "2023": 60.7
+  },
+  {
+    "codigo": 3712,
+    "nombre": "FUNDACION CENTRO DE INVESTIGACION DOCENCIA Y CONSULTORIA ADMINISTRATIVA-F-CIDCA-",
+    "nivel": "TyT",
+    "2023": 59.01
+  },
+  {
+    "codigo": 3713,
+    "nombre": "FUNDACION UNIVERSITARIA PARA EL DESARROLLO HUMANO - UNINPAHU",
+    "nivel": "TyT",
+    "2023": 45.14
+  },
+  {
+    "codigo": 3713,
+    "nombre": "FUNDACION UNIVERSITARIA PARA EL DESARROLLO HUMANO - UNINPAHU",
+    "nivel": "Universitario",
+    "2023": 52.53
+  },
+  {
+    "codigo": 3715,
+    "nombre": "FUNDACION TECNOLOGICA AUTONOMA DEL PACIFICO",
+    "nivel": "TyT",
+    "2023": 52.18
+  },
+  {
+    "codigo": 3716,
+    "nombre": "TECNOLOGICA FITEC",
+    "nivel": "TyT",
+    "2023": 63.27
+  },
+  {
+    "codigo": 3718,
+    "nombre": "FUNDACION DE ESTUDIOS SUPERIORES COMFANORTE -F.E.S.C.-",
+    "nivel": "TyT",
+    "2023": 54.18
+  },
+  {
+    "codigo": 3718,
+    "nombre": "FUNDACION DE ESTUDIOS SUPERIORES COMFANORTE -F.E.S.C.-",
+    "nivel": "Universitario",
+    "2023": 16.44
+  },
+  {
+    "codigo": 3719,
+    "nombre": "INSTITUCION UNIVERSITARIA LATINA - UNILATINA",
+    "nivel": "TyT",
+    "2023": 58.37
+  },
+  {
+    "codigo": 3719,
+    "nombre": "INSTITUCION UNIVERSITARIA LATINA - UNILATINA",
+    "nivel": "Universitario",
+    "2023": 32.73
+  },
+  {
+    "codigo": 3720,
+    "nombre": "FUNDACION UNIVERSITARIA ESUMER",
+    "nivel": "TyT",
+    "2023": 30.59
+  },
+  {
+    "codigo": 3720,
+    "nombre": "FUNDACION UNIVERSITARIA ESUMER",
+    "nivel": "Universitario",
+    "2023": 12.17
+  },
+  {
+    "codigo": 3724,
+    "nombre": "FUNDACION TECNOLOGICA DE MADRID",
+    "nivel": "TyT",
+    "2023": 72.73
+  },
+  {
+    "codigo": 3725,
+    "nombre": "FUNDACION TECNOLOGICA ALBERTO MERANI",
+    "nivel": "TyT",
+    "2023": 43.42
+  },
+  {
+    "codigo": 3801,
+    "nombre": "CORPORACION DE ESTUDIOS TECNOLOGICOS DEL NORTE DEL VALLE",
+    "nivel": "TyT",
+    "2023": 51.03
+  },
+  {
+    "codigo": 3801,
+    "nombre": "CORPORACION DE ESTUDIOS TECNOLOGICOS DEL NORTE DEL VALLE",
+    "nivel": "Universitario",
+    "2023": 33.33
+  },
+  {
+    "codigo": 3803,
+    "nombre": "CORPORACION UNIVERSITARIA CENTRO SUPERIOR - UNICUCES",
+    "nivel": "TyT",
+    "2023": 56.36
+  },
+  {
+    "codigo": 3803,
+    "nombre": "CORPORACION UNIVERSITARIA CENTRO SUPERIOR - UNICUCES",
+    "nivel": "Universitario",
+    "2023": 22.09
+  },
+  {
+    "codigo": 3805,
+    "nombre": "INSTITUTO DE EDUCACION EMPRESARIAL-IDEE-",
+    "nivel": "TyT",
+    "2023": 37.07
+  },
+  {
+    "codigo": 3806,
+    "nombre": "CORPORACION ESCUELA SUPERIOR DE ADMINISTRACION Y ESTUDIOS TECNOLOGICOS- EAE",
+    "nivel": "TyT",
+    "2023": 69.79
+  },
+  {
+    "codigo": 3807,
+    "nombre": "ESCUELA DE TECNOLOGIAS DE ANTIOQUIA -ETA-",
+    "nivel": "TyT",
+    "2023": 35.26
+  },
+  {
+    "codigo": 3808,
+    "nombre": "CORPORACION TECNOLOGICA DE BOGOTA - CTB - ",
+    "nivel": "TyT",
+    "2023": 53.69
+  },
+  {
+    "codigo": 3809,
+    "nombre": "INSTITUTO SUPERIOR DE CIENCIAS SOCIALES Y ECONOMICO FAMILIARES-ICSEF-",
+    "nivel": "TyT",
+    "2023": 52.07
+  },
+  {
+    "codigo": 3809,
+    "nombre": "INSTITUTO SUPERIOR DE CIENCIAS SOCIALES Y ECONOMICO FAMILIARES-ICSEF-",
+    "nivel": "Universitario",
+    "2023": 0.0
+  },
+  {
+    "codigo": 3810,
+    "nombre": "CORPORACION EDUCATIVA -ITAE-",
+    "nivel": "TyT",
+    "2023": 58.48
+  },
+  {
+    "codigo": 3811,
+    "nombre": "CORPORACION DE EDUCACION DEL NORTE DEL TOLIMA - COREDUCACION",
+    "nivel": "TyT",
+    "2023": 55.15
+  },
+  {
+    "codigo": 3812,
+    "nombre": "INSTITUCION UNIVERSITARIA MARCO FIDEL SUAREZ - IUMAFIS",
+    "nivel": "TyT",
+    "2023": 46.69
+  },
+  {
+    "codigo": 3817,
+    "nombre": "CORPORACION UNIVERSITARIA AUTONOMA DE NARIÑO -AUNAR-",
+    "nivel": "TyT",
+    "2023": 50.81
+  },
+  {
+    "codigo": 3817,
+    "nombre": "CORPORACION UNIVERSITARIA AUTONOMA DE NARIÑO -AUNAR-",
+    "nivel": "Universitario",
+    "2023": 45.15
+  },
+  {
+    "codigo": 3819,
+    "nombre": "CORPORACION TECNOLOGICA INDUSTRIAL COLOMBIANA - TEINCO",
+    "nivel": "TyT",
+    "2023": 59.91
+  },
+  {
+    "codigo": 3819,
+    "nombre": "CORPORACION TECNOLOGICA INDUSTRIAL COLOMBIANA - TEINCO",
+    "nivel": "Universitario",
+    "2023": 18.46
+  },
+  {
+    "codigo": 3820,
+    "nombre": "CORPORACION ACADEMIA TECNOLOGICA DE COLOMBIA -ATEC-",
+    "nivel": "TyT",
+    "2023": 55.18
+  },
+  {
+    "codigo": 3821,
+    "nombre": "CORPORACION POLITECNICO DE LA COSTA ATLANTICA",
+    "nivel": "TyT",
+    "2023": 45.55
+  },
+  {
+    "codigo": 3821,
+    "nombre": "CORPORACION POLITECNICO DE LA COSTA ATLANTICA",
+    "nivel": "Universitario",
+    "2023": 43.65
+  },
+  {
+    "codigo": 3822,
+    "nombre": "POLITECNICO ICAFT",
+    "nivel": "TyT",
+    "2023": 22.75
+  },
+  {
+    "codigo": 3823,
+    "nombre": "UNION AMERICANA DE EDUCACION SUPERIOR- UNION AMERICANA",
+    "nivel": "TyT",
+    "2023": 86.88
+  },
+  {
+    "codigo": 3824,
+    "nombre": "ESCUELA SUPERIOR DE CIENCIAS EMPRESARIALES - ECIEM",
+    "nivel": "TyT",
+    "2023": 49.21
+  },
+  {
+    "codigo": 3826,
+    "nombre": "CORPORACION INTERNACIONAL PARA EL DESARROLLO EDUCATIVO -CIDE-",
+    "nivel": "TyT",
+    "2023": 67.05
+  },
+  {
+    "codigo": 3826,
+    "nombre": "CORPORACION INTERNACIONAL PARA EL DESARROLLO EDUCATIVO -CIDE-",
+    "nivel": "Universitario",
+    "2023": 35.88
+  },
+  {
+    "codigo": 3827,
+    "nombre": "POLITECNICO SANTAFE DE BOGOTA",
+    "nivel": "TyT",
+    "2023": 84.99
+  },
+  {
+    "codigo": 3828,
+    "nombre": "TECNOLOGICA DEL SUR",
+    "nivel": "TyT",
+    "2023": 87.82
+  },
+  {
+    "codigo": 3829,
+    "nombre": "CORPORACION JHON F. KENNEDY",
+    "nivel": "TyT",
+    "2023": 65.54
+  },
+  {
+    "codigo": 3830,
+    "nombre": "CORPORACION UNIVERSAL DE INVESTIGACION Y TECNOLOGIA -CORUNIVERSITEC-",
+    "nivel": "TyT",
+    "2023": 82.51
+  },
+  {
+    "codigo": 3831,
+    "nombre": "CORPORACION UNIVERSITARIA COMFACAUCA - UNICOMFACAUCA",
+    "nivel": "TyT",
+    "2023": 52.26
+  },
+  {
+    "codigo": 3831,
+    "nombre": "CORPORACION UNIVERSITARIA COMFACAUCA - UNICOMFACAUCA",
+    "nivel": "Universitario",
+    "2023": 43.53
+  },
+  {
+    "codigo": 3834,
+    "nombre": "CORPORACION TECNOLOGICA CATOLICA DE OCCIDENTE - TECOC -",
+    "nivel": "TyT",
+    "2023": 53.99
+  },
+  {
+    "codigo": 3901,
+    "nombre": "ESCUELA DE FORMACION DE INFANTERIA DE MARINA",
+    "nivel": "TyT",
+    "2023": 10.46
+  },
+  {
+    "codigo": 3902,
+    "nombre": "ESCUELA  MILITAR DE SUBOFICIALES SARGENTO INOCENCIO CHINCA",
+    "nivel": "TyT",
+    "2023": 9.49
+  },
+  {
+    "codigo": 4101,
+    "nombre": "INSTITUTO DE EDUCACION TECNICA PROFESIONAL DE ROLDANILLO",
+    "nivel": "TyT",
+    "2023": 52.98
+  },
+  {
+    "codigo": 4101,
+    "nombre": "INSTITUTO DE EDUCACION TECNICA PROFESIONAL DE ROLDANILLO",
+    "nivel": "Universitario",
+    "2023": 20.22
+  },
+  {
+    "codigo": 4102,
+    "nombre": "INSTITUTO NACIONAL DE FORMACION TECNICA PROFESIONAL DE SAN JUAN DEL CESAR",
+    "nivel": "TyT",
+    "2023": 66.12
+  },
+  {
+    "codigo": 4102,
+    "nombre": "INSTITUTO NACIONAL DE FORMACION TECNICA PROFESIONAL DE SAN JUAN DEL CESAR",
+    "nivel": "Universitario",
+    "2023": 42.11
+  },
+  {
+    "codigo": 4106,
+    "nombre": "INSTITUTO NACIONAL DE FORMACION TECNICA PROFESIONAL DE SAN ANDRES",
+    "nivel": "TyT",
+    "2023": 74.34
+  },
+  {
+    "codigo": 4107,
+    "nombre": "INSTITUTO TECNICO AGRICOLA ITA",
+    "nivel": "TyT",
+    "2023": 61.17
+  },
+  {
+    "codigo": 4108,
+    "nombre": "ESCUELA TECNOLOGICA INSTITUTO TECNICO CENTRAL",
+    "nivel": "TyT",
+    "2023": 44.55
+  },
+  {
+    "codigo": 4108,
+    "nombre": "ESCUELA TECNOLOGICA INSTITUTO TECNICO CENTRAL",
+    "nivel": "Universitario",
+    "2023": 44.03
+  },
+  {
+    "codigo": 4109,
+    "nombre": "INSTITUTO TECNICO NACIONAL DE COMERCIO SIMON RODRIGUEZ - INTENALCO",
+    "nivel": "TyT",
+    "2023": 65.56
+  },
+  {
+    "codigo": 4110,
+    "nombre": "INSTITUTO TOLIMENSE DE FORMACION TECNICA PROFESIONAL",
+    "nivel": "TyT",
+    "2023": 47.2
+  },
+  {
+    "codigo": 4110,
+    "nombre": "INSTITUTO TOLIMENSE DE FORMACION TECNICA PROFESIONAL",
+    "nivel": "Universitario",
+    "2023": 33.33
+  },
+  {
+    "codigo": 4111,
+    "nombre": "INSTITUTO NACIONAL DE FORMACION TECNICA PROFESIONAL - HUMBERTO VELASQUEZ GARCIA",
+    "nivel": "TyT",
+    "2023": 64.53
+  },
+  {
+    "codigo": 4111,
+    "nombre": "INSTITUTO NACIONAL DE FORMACION TECNICA PROFESIONAL - HUMBERTO VELASQUEZ GARCIA",
+    "nivel": "Universitario",
+    "2023": 39.59
+  },
+  {
+    "codigo": 4112,
+    "nombre": "COLEGIO INTEGRADO NACIONAL ORIENTE DE CALDAS - IES CINOC",
+    "nivel": "TyT",
+    "2023": 44.39
+  },
+  {
+    "codigo": 4701,
+    "nombre": "FUNDACION ACADEMIA DE DIBUJO PROFESIONAL",
+    "nivel": "TyT",
+    "2023": 48.18
+  },
+  {
+    "codigo": 4702,
+    "nombre": "FUNDACION DE EDUCACION SUPERIOR SAN JOSE -FESSANJOSE-",
+    "nivel": "TyT",
+    "2023": 75.84
+  },
+  {
+    "codigo": 4702,
+    "nombre": "FUNDACION DE EDUCACION SUPERIOR SAN JOSE -FESSANJOSE-",
+    "nivel": "Universitario",
+    "2023": 30.93
+  },
+  {
+    "codigo": 4705,
+    "nombre": "FUNDACION CENTRO DE EDUCACION SUPERIOR,INVESTIGACION Y PROFESIONALIZACION -CEDINPRO-",
+    "nivel": "TyT",
+    "2023": 80.65
+  },
+  {
+    "codigo": 4705,
+    "nombre": "FUNDACION CENTRO DE EDUCACION SUPERIOR,INVESTIGACION Y PROFESIONALIZACION -CEDINPRO-",
+    "nivel": "Universitario",
+    "2023": 52.1
+  },
+  {
+    "codigo": 4708,
+    "nombre": "FUNDACION ESCUELA COLOMBIANA DE HOTELERIA Y TURISMO-ECOTET-",
+    "nivel": "TyT",
+    "2023": 55.62
+  },
+  {
+    "codigo": 4709,
+    "nombre": "INSTITUCION UNIVERSITARIA EAM",
+    "nivel": "TyT",
+    "2023": 48.74
+  },
+  {
+    "codigo": 4709,
+    "nombre": "INSTITUCION UNIVERSITARIA EAM",
+    "nivel": "Universitario",
+    "2023": 8.5
+  },
+  {
+    "codigo": 4710,
+    "nombre": "POLITECNICO INDOAMERICANO",
+    "nivel": "TyT",
+    "2023": 98.28
+  },
+  {
+    "codigo": 4714,
+    "nombre": "FUNDACION INTERAMERICANA TECNICA-FIT-",
+    "nivel": "TyT",
+    "2023": 46.49
+  },
+  {
+    "codigo": 4719,
+    "nombre": "FUNDACION DE EDUCACION SUPERIOR NUEVA AMERICA",
+    "nivel": "TyT",
+    "2023": 70.35
+  },
+  {
+    "codigo": 4721,
+    "nombre": "FUNDACION UNIVERSITARIA HORIZONTE",
+    "nivel": "TyT",
+    "2023": 70.18
+  },
+  {
+    "codigo": 4721,
+    "nombre": "FUNDACION UNIVERSITARIA HORIZONTE",
+    "nivel": "Universitario",
+    "2023": 26.15
+  },
+  {
+    "codigo": 4726,
+    "nombre": "FUNDACION UNIVERSITARIA SAN MATEO - SAN MATEO EDUCACION SUPERIOR",
+    "nivel": "TyT",
+    "2023": 61.97
+  },
+  {
+    "codigo": 4726,
+    "nombre": "FUNDACION UNIVERSITARIA SAN MATEO - SAN MATEO EDUCACION SUPERIOR",
+    "nivel": "Universitario",
+    "2023": 23.09
+  },
+  {
+    "codigo": 4727,
+    "nombre": "POLITECNICO INTERNACIONAL INSTITUCION DE EDUCACION SUPERIOR",
+    "nivel": "TyT",
+    "2023": 64.94
+  },
+  {
+    "codigo": 4727,
+    "nombre": "POLITECNICO INTERNACIONAL INSTITUCION DE EDUCACION SUPERIOR",
+    "nivel": "Universitario",
+    "2023": 96.43
+  },
+  {
+    "codigo": 4801,
+    "nombre": "CORPORACION ACADEMIA SUPERIOR DE ARTES",
+    "nivel": "TyT",
+    "2023": 47.79
+  },
+  {
+    "codigo": 4803,
+    "nombre": "CORPORACION POLITECNICO COLOMBO ANDINO",
+    "nivel": "TyT",
+    "2023": 77.34
+  },
+  {
+    "codigo": 4805,
+    "nombre": "CORPORACION TECNICA DE COLOMBIA -CORPOTEC-",
+    "nivel": "TyT",
+    "2023": 57.64
+  },
+  {
+    "codigo": 4806,
+    "nombre": "CORPORACION CENTRO DE ESTUDIOS ARTISTICOS Y TECNICOS-CEART-",
+    "nivel": "TyT",
+    "2023": 67.62
+  },
+  {
+    "codigo": 4808,
+    "nombre": "CORPORACION REGIONAL DE EDUCACION SUPERIOR-CRES-DE CALI",
+    "nivel": "TyT",
+    "2023": 84.46
+  },
+  {
+    "codigo": 4810,
+    "nombre": "CORPORACION UNIVERSITARIA CENDA",
+    "nivel": "TyT",
+    "2023": 68.76
+  },
+  {
+    "codigo": 4810,
+    "nombre": "CORPORACION UNIVERSITARIA CENDA",
+    "nivel": "Universitario",
+    "2023": 68.23
+  },
+  {
+    "codigo": 4811,
+    "nombre": "CORPORACION DE ESTUDIOS SUPERIORES SALAMANDRA",
+    "nivel": "TyT",
+    "2023": 37.56
+  },
+  {
+    "codigo": 4812,
+    "nombre": "CORPORACION DE EDUCACION SUPERIOR SURAMERICA",
+    "nivel": "TyT",
+    "2023": 89.66
+  },
+  {
+    "codigo": 4813,
+    "nombre": "CORPORACION UNIFICADA NACIONAL DE EDUCACION SUPERIOR-CUN-",
+    "nivel": "TyT",
+    "2023": 49.47
+  },
+  {
+    "codigo": 4813,
+    "nombre": "CORPORACION UNIFICADA NACIONAL DE EDUCACION SUPERIOR-CUN-",
+    "nivel": "Universitario",
+    "2023": 20.08
+  },
+  {
+    "codigo": 4817,
+    "nombre": "CORPORACION EDUCATIVA DEL LITORAL",
+    "nivel": "TyT",
+    "2023": 69.24
+  },
+  {
+    "codigo": 4818,
+    "nombre": "CORPORACION UNIVERSITARIA LATINOAMERICANA - CUL",
+    "nivel": "TyT",
+    "2023": 56.21
+  },
+  {
+    "codigo": 4818,
+    "nombre": "CORPORACION UNIVERSITARIA LATINOAMERICANA - CUL",
+    "nivel": "Universitario",
+    "2023": 52.31
+  },
+  {
+    "codigo": 4822,
+    "nombre": "CORPORACION ESCUELA DE ARTES Y LETRAS",
+    "nivel": "TyT",
+    "2023": 50.55
+  },
+  {
+    "codigo": 4822,
+    "nombre": "CORPORACION ESCUELA DE ARTES Y LETRAS",
+    "nivel": "Universitario",
+    "2023": 46.43
+  },
+  {
+    "codigo": 4825,
+    "nombre": "CORPORACION INSTITUTO DE ADMINISTRACION Y FINANZAS - CIAF",
+    "nivel": "TyT",
+    "2023": 55.36
+  },
+  {
+    "codigo": 4826,
+    "nombre": "CORPORACION UNIVERSITARIA REGIONAL DEL CARIBE -IAFIC-",
+    "nivel": "TyT",
+    "2023": 90.77
+  },
+  {
+    "codigo": 4826,
+    "nombre": "CORPORACION UNIVERSITARIA REGIONAL DEL CARIBE -IAFIC-",
+    "nivel": "Universitario",
+    "2023": 74.94
+  },
+  {
+    "codigo": 4827,
+    "nombre": "CORPORACION EDUCATIVA INSTITUTO TECNICO SUPERIOR DE ARTES, IDEARTES",
+    "nivel": "TyT",
+    "2023": 34.13
+  },
+  {
+    "codigo": 4829,
+    "nombre": "CORPORACION INTERAMERICANA DE EDUCACION SUPERIOR-CORPOCIDES",
+    "nivel": "TyT",
+    "2023": 64.82
+  },
+  {
+    "codigo": 4832,
+    "nombre": "CORPORACION INSTITUTO SUPERIOR DE EDUCACION SOCIAL-ISES-",
+    "nivel": "TyT",
+    "2023": 75.47
+  },
+  {
+    "codigo": 4835,
+    "nombre": "CORPORACION UNIVERSITARIA TALLER CINCO CENTRO DE DISE¿O",
+    "nivel": "TyT",
+    "2023": 51.94
+  },
+  {
+    "codigo": 4835,
+    "nombre": "CORPORACION UNIVERSITARIA TALLER CINCO CENTRO DE DISE¿O",
+    "nivel": "Universitario",
+    "2023": 44.75
+  },
+  {
+    "codigo": 4837,
+    "nombre": "CORPORACION UNIVERSITARIA DE CIENCIAS EMPRESARIALES, EDUCACION Y SALUD -CORSALUD-",
+    "nivel": "TyT",
+    "2023": 41.16
+  },
+  {
+    "codigo": 4837,
+    "nombre": "CORPORACION UNIVERSITARIA DE CIENCIAS EMPRESARIALES, EDUCACION Y SALUD -CORSALUD-",
+    "nivel": "Universitario",
+    "2023": 50.25
+  },
+  {
+    "codigo": 5801,
+    "nombre": "CORPORACION ESCUELA TECNOLOGICA DEL ORIENTE",
+    "nivel": "TyT",
+    "2023": 53.7
+  },
+  {
+    "codigo": 5801,
+    "nombre": "CORPORACION ESCUELA TECNOLOGICA DEL ORIENTE",
+    "nivel": "Universitario",
+    "2023": 40.16
+  },
+  {
+    "codigo": 5802,
+    "nombre": "UNIVERSIDAD ECCI",
+    "nivel": "TyT",
+    "2023": 47.19
+  },
+  {
+    "codigo": 5802,
+    "nombre": "UNIVERSIDAD ECCI",
+    "nivel": "Universitario",
+    "2023": 44.04
+  },
+  {
+    "codigo": 9102,
+    "nombre": "ESCUELA DE SUBOFICIALES DE LA FUERZA AEREA COLOMBIANA ANDRES M. DIAZ",
+    "nivel": "TyT",
+    "2023": 10.37
+  },
+  {
+    "codigo": 9103,
+    "nombre": "ESCUELA MILITAR DE AVIACION MARCO FIDEL SUAREZ",
+    "nivel": "Universitario",
+    "2023": 34.61
+  },
+  {
+    "codigo": 9104,
+    "nombre": "ESCUELA MILITAR DE CADETES GENERAL JOSE MARIA CORDOVA",
+    "nivel": "Universitario",
+    "2023": 20.93
+  },
+  {
+    "codigo": 9105,
+    "nombre": "ESCUELA NAVAL DE CADETES ALMIRANTE PADILLA",
+    "nivel": "Universitario",
+    "2023": 40.26
+  },
+  {
+    "codigo": 9107,
+    "nombre": "ESCUELA DE INGENIEROS MILITARES",
+    "nivel": "TyT",
+    "2023": 1.0
+  },
+  {
+    "codigo": 9107,
+    "nombre": "ESCUELA DE INGENIEROS MILITARES",
+    "nivel": "Universitario",
+    "2023": 59.39
+  },
+  {
+    "codigo": 9110,
+    "nombre": "SERVICIO NACIONAL DE APRENDIZAJE-SENA-",
+    "nivel": "TyT",
+    "2023": 42.24
+  },
+  {
+    "codigo": 9116,
+    "nombre": "FUNDACION UNIVERSITARIA CLARETIANA - UNICLARETIANA",
+    "nivel": "Universitario",
+    "2023": 44.09
+  },
+  {
+    "codigo": 9117,
+    "nombre": "ESCUELA INTERNACIONAL DE ESTUDIOS SUPERIORES - INTER",
+    "nivel": "TyT",
+    "2023": 39.83
+  },
+  {
+    "codigo": 9119,
+    "nombre": "CORPORACION UNIVERSITARIA AMERICANA",
+    "nivel": "TyT",
+    "2023": 41.1
+  },
+  {
+    "codigo": 9119,
+    "nombre": "CORPORACION UNIVERSITARIA AMERICANA",
+    "nivel": "Universitario",
+    "2023": 41.58
+  },
+  {
+    "codigo": 9120,
+    "nombre": "FUNDACION UNIVERSITARIA BELLAS ARTES",
+    "nivel": "Universitario",
+    "2023": 43.79
+  },
+  {
+    "codigo": 9121,
+    "nombre": "FUNDACION UNIVERSITARIA COLOMBO INTERNACIONAL - UNICOLOMBO",
+    "nivel": "TyT",
+    "2023": 49.51
+  },
+  {
+    "codigo": 9121,
+    "nombre": "FUNDACION UNIVERSITARIA COLOMBO INTERNACIONAL - UNICOLOMBO",
+    "nivel": "Universitario",
+    "2023": 52.23
+  },
+  {
+    "codigo": 9124,
+    "nombre": "TECNOLOGICO COREDI",
+    "nivel": "TyT",
+    "2023": 38.6
+  },
+  {
+    "codigo": 9126,
+    "nombre": "CORPORACION TECNOLOGICA INDOAMERICA",
+    "nivel": "TyT",
+    "2023": 66.69
+  },
+  {
+    "codigo": 9127,
+    "nombre": "CORPORACION UNIVERSITARIA DE SABANETA - UNISABANETA",
+    "nivel": "TyT",
+    "2023": 100.0
+  },
+  {
+    "codigo": 9127,
+    "nombre": "CORPORACION UNIVERSITARIA DE SABANETA - UNISABANETA",
+    "nivel": "Universitario",
+    "2023": 45.29
+  },
+  {
+    "codigo": 9128,
+    "nombre": "LCI - FUNDACION TECNOLOGICA",
+    "nivel": "TyT",
+    "2023": 48.08
+  },
+  {
+    "codigo": 9129,
+    "nombre": "FUNDACION UNIVERSITARIA CAFAM -UNICAFAM",
+    "nivel": "TyT",
+    "2023": 53.0
+  },
+  {
+    "codigo": 9129,
+    "nombre": "FUNDACION UNIVERSITARIA CAFAM -UNICAFAM",
+    "nivel": "Universitario",
+    "2023": 48.12
+  },
+  {
+    "codigo": 9131,
+    "nombre": "FUNDACIÓN UNIVERSITARIA CERVANTES SAN AGUSTÍN - UNICERVANTES",
+    "nivel": "Universitario",
+    "2023": 33.05
+  },
+  {
+    "codigo": 9899,
+    "nombre": "INSTITUCION UNIVERSITARIA DE COLOMBIA - UNIVERSITARIA DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 56.09
+  },
+  {
+    "codigo": 9900,
+    "nombre": "CORPORACION UNIVERSITARIA U DE COLOMBIA",
+    "nivel": "Universitario",
+    "2023": 36.38
+  },
+  {
+    "codigo": 9902,
+    "nombre": "FUNDACION UNIVERSITARIA COMFENALCO SANTANDER",
+    "nivel": "TyT",
+    "2023": 91.04
+  },
+  {
+    "codigo": 9902,
+    "nombre": "FUNDACION UNIVERSITARIA COMFENALCO SANTANDER",
+    "nivel": "Universitario",
+    "2023": 82.69
+  },
+  {
+    "codigo": 9903,
+    "nombre": "CORPORACION DE EDUCACION TECNOLOGICA COLSUBSIDIO- AIRBUS GROUP",
+    "nivel": "TyT",
+    "2023": 86.24
+  },
+  {
+    "codigo": 9904,
+    "nombre": "FUNDACION UNIVERSITARIA COLOMBO GERMANA",
+    "nivel": "TyT",
+    "2023": 52.39
+  },
+  {
+    "codigo": 9905,
+    "nombre": "FUNDACION ESCUELA TECNOLOGICA DE NEIVA - JESUS OVIEDO PEREZ -FET",
+    "nivel": "TyT",
+    "2023": 45.42
+  },
+  {
+    "codigo": 9906,
+    "nombre": "CORPORACION UNIVERSITARIA PARA EL DESARROLLO EMPRESARIAL Y SOCIAL- CUDES",
+    "nivel": "TyT",
+    "2023": 49.37
+  },
+  {
+    "codigo": 9906,
+    "nombre": "CORPORACION UNIVERSITARIA PARA EL DESARROLLO EMPRESARIAL Y SOCIAL- CUDES",
+    "nivel": "Universitario",
+    "2023": 61.88
+  },
+  {
+    "codigo": 9907,
+    "nombre": "FUNDACION UNIVERSITARIA NAVARRA - UNINAVARRA",
+    "nivel": "TyT",
+    "2023": 39.14
+  },
+  {
+    "codigo": 9907,
+    "nombre": "FUNDACION UNIVERSITARIA NAVARRA - UNINAVARRA",
+    "nivel": "Universitario",
+    "2023": 37.87
+  },
+  {
+    "codigo": 9913,
+    "nombre": "CORPORACION UNIVERSITARIA DE ASTURIAS",
+    "nivel": "TyT",
+    "2023": 65.72
+  },
+  {
+    "codigo": 9913,
+    "nombre": "CORPORACION UNIVERSITARIA DE ASTURIAS",
+    "nivel": "Universitario",
+    "2023": 70.09
+  },
+  {
+    "codigo": 9914,
+    "nombre": "ELITE- ESCUELA LATINOAMERICANA DE INGENIEROS, TECNOLOGOS Y EMPRESARIOS",
+    "nivel": "TyT",
+    "2023": 60.94
+  },
+  {
+    "codigo": 9914,
+    "nombre": "ELITE- ESCUELA LATINOAMERICANA DE INGENIEROS, TECNOLOGOS Y EMPRESARIOS",
+    "nivel": "Universitario",
+    "2023": 56.08
+  },
+  {
+    "codigo": 9915,
+    "nombre": "UNIVERSITARIA VIRTUAL INTERNACIONAL",
+    "nivel": "TyT",
+    "2023": 80.09
+  },
+  {
+    "codigo": 9915,
+    "nombre": "UNIVERSITARIA VIRTUAL INTERNACIONAL",
+    "nivel": "Universitario",
+    "2023": 80.41
+  },
+  {
+    "codigo": 9921,
+    "nombre": "FUNDACION UNIVERSITARIA CATOLICA DEL SUR - UNICATOLICA DEL SUR",
+    "nivel": "Universitario",
+    "2023": 27.78
+  },
+  {
+    "codigo": 9922,
+    "nombre": "FUNDACION UNIVERSITARIA COMFAMILIAR RISARALDA",
+    "nivel": "TyT",
+    "2023": 40.04
+  },
+  {
+    "codigo": 9927,
+    "nombre": "INSTITUCION UNIVERSITARIA DIGITAL DE ANTIOQUIA -IU. DIGITAL",
+    "nivel": "TyT",
+    "2023": 68.12
+  },
+  {
+    "codigo": 9929,
+    "nombre": "UNIVERSIDAD AUTÓNOMA INDÍGENA INTERCULTURAL - UAIIN",
+    "nivel": "TyT",
+    "2023": 83.82
+  }
+]

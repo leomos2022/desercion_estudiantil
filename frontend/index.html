@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta Estudiantil Colombia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* ══════════════════════════════════════════════════════════════════
+           SKEUOMORPHISM RETRO - Estilo años 80s/90s Contemporáneo
+           Inspirado en interfaces clásicas: limpio, funcional, atemporal
+        ══════════════════════════════════════════════════════════════════ */
+        
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+        
+        :root {
+            /* Paleta retro apagada */
+            --cream: #f5f0e6;
+            --cream-dark: #e8e0d0;
+            --beige: #d4c8b8;
+            --brown-light: #a89880;
+            --brown: #6b5b4f;
+            --charcoal: #3d3832;
+            --black: #2a2520;
+            
+            /* Acentos solo para datos importantes */
+            --accent-red: #c44536;
+            --accent-amber: #d4944c;
+            --accent-green: #588157;
+            --accent-blue: #457b9d;
+            
+            /* Sombras realistas */
+            --shadow-raised: 
+                inset 1px 1px 0 rgba(255,255,255,0.6),
+                inset -1px -1px 0 rgba(0,0,0,0.1),
+                2px 2px 6px rgba(0,0,0,0.15),
+                1px 1px 2px rgba(0,0,0,0.1);
+            --shadow-pressed:
+                inset 2px 2px 4px rgba(0,0,0,0.15),
+                inset -1px -1px 2px rgba(255,255,255,0.4);
+            --shadow-panel:
+                inset 1px 1px 0 rgba(255,255,255,0.5),
+                3px 3px 10px rgba(0,0,0,0.12);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+            background: var(--cream);
+            background-image: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0,0,0,0.01) 2px,
+                    rgba(0,0,0,0.01) 4px
+                );
+            min-height: 100vh;
+            color: var(--charcoal);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           HEADER - Estilo panel de control retro
+        ══════════════════════════════════════════════════════════════════ */
+        
+        header {
+            background: linear-gradient(180deg, var(--cream-dark) 0%, var(--beige) 100%);
+            border-bottom: 3px solid var(--brown-light);
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 
+                inset 0 1px 0 rgba(255,255,255,0.7),
+                0 3px 8px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--black);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+        }
+        
+        header p {
+            font-size: 0.95rem;
+            color: var(--brown);
+            font-weight: 400;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: var(--cream);
+            border: 1px solid var(--brown-light);
+            padding: 6px 14px;
+            margin-top: 12px;
+            font-size: 0.8rem;
+            font-family: 'IBM Plex Mono', monospace;
+            color: var(--brown);
+            box-shadow: var(--shadow-pressed);
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           TABS - Botones físicos estilo panel
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin: 25px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .tab-btn {
+            padding: 12px 22px;
+            border: 1px solid var(--brown-light);
+            background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 100%);
+            color: var(--charcoal);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            box-shadow: var(--shadow-raised);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tab-btn:hover {
+            background: linear-gradient(180deg, #fff 0%, var(--cream) 100%);
+        }
+        
+        .tab-btn:active,
+        .tab-btn.active {
+            background: linear-gradient(180deg, var(--cream-dark) 0%, var(--beige) 100%);
+            box-shadow: var(--shadow-pressed);
+            transform: translateY(1px);
+        }
+        
+        .tab-btn.active {
+            color: var(--black);
+            border-color: var(--brown);
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           CARDS - Paneles con profundidad
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .card {
+            background: linear-gradient(180deg, #fff 0%, var(--cream) 100%);
+            border: 1px solid var(--beige);
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow-panel);
+        }
+        
+        .card h2 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--black);
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--beige);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           STATS - Display LCD estilo retro
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: var(--charcoal);
+            border: 3px solid var(--black);
+            padding: 20px 15px;
+            text-align: center;
+            box-shadow: 
+                inset 2px 2px 8px rgba(0,0,0,0.4),
+                inset -1px -1px 4px rgba(255,255,255,0.05);
+        }
+        
+        .stat-card .number {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 2rem;
+            font-weight: 600;
+            display: block;
+            color: #7fcd91; /* LCD verde clásico */
+            text-shadow: 0 0 10px rgba(127, 205, 145, 0.5);
+        }
+        
+        .stat-card.warning .number {
+            color: #f0c674; /* LCD ámbar */
+            text-shadow: 0 0 10px rgba(240, 198, 116, 0.5);
+        }
+        
+        .stat-card.danger .number {
+            color: #cc6666; /* LCD rojo */
+            text-shadow: 0 0 10px rgba(204, 102, 102, 0.5);
+        }
+        
+        .stat-card .label {
+            font-size: 0.75rem;
+            color: #888;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           FORMS - Controles estilo hardware
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .form-section h3 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--brown);
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--beige);
+        }
+        
+        .form-group {
+            margin-bottom: 18px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid var(--beige);
+            background: #fff;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.95rem;
+            color: var(--black);
+            transition: all 0.2s;
+            box-shadow: var(--shadow-pressed);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--brown);
+            background: #fffef8;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: var(--brown);
+        }
+        
+        .checkbox-item label {
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           BUTTONS - Botones físicos con profundidad
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .btn {
+            padding: 14px 32px;
+            border: 2px solid var(--brown);
+            background: linear-gradient(180deg, var(--cream) 0%, var(--beige) 100%);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--black);
+            cursor: pointer;
+            transition: all 0.1s ease;
+            box-shadow: var(--shadow-raised);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(180deg, #fff 0%, var(--cream-dark) 100%);
+        }
+        
+        .btn:active {
+            box-shadow: var(--shadow-pressed);
+            transform: translateY(2px);
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .btn-small {
+            padding: 10px 18px;
+            font-size: 0.8rem;
+        }
+        /* ══════════════════════════════════════════════════════════════════
+           RESULTS - Panel de resultados
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .result-container {
+            display: none;
+            margin-top: 30px;
+            border: 3px solid var(--black);
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .result-header {
+            background: var(--charcoal);
+            padding: 15px 20px;
+            text-align: center;
+        }
+        
+        .result-header h3 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.9rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .result-body {
+            padding: 25px;
+            background: #fff;
+        }
+        
+        .result-container.risk-alto .result-header { border-bottom: 4px solid var(--accent-red); }
+        .result-container.risk-medio .result-header { border-bottom: 4px solid var(--accent-amber); }
+        .result-container.risk-bajo .result-header { border-bottom: 4px solid var(--accent-green); }
+        
+        .risk-percentage {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 3.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 15px 0;
+            color: var(--black);
+        }
+        
+        .result-container.risk-alto .risk-percentage { color: var(--accent-red); }
+        .result-container.risk-medio .risk-percentage { color: var(--accent-amber); }
+        .result-container.risk-bajo .risk-percentage { color: var(--accent-green); }
+        
+        .risk-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1.1rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background: var(--cream);
+            border: 1px solid var(--beige);
+        }
+        
+        .result-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid var(--beige);
+        }
+        
+        .result-section h4 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--brown);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        
+        .factors-list, .recommendations-list {
+            list-style: none;
+        }
+        
+        .factors-list li, .recommendations-list li {
+            padding: 10px 14px;
+            background: var(--cream);
+            border-left: 3px solid var(--beige);
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           CHARTS - Contenedor para gráficas
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 25px 0;
+            padding: 20px;
+            background: #fff;
+            border: 2px solid var(--beige);
+            box-shadow: var(--shadow-pressed);
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           TABLE - Tabla estilo terminal
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .ies-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .ies-table th,
+        .ies-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--beige);
+        }
+        
+        .ies-table th {
+            background: var(--charcoal);
+            color: #7fcd91;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .ies-table tr:hover {
+            background: var(--cream);
+        }
+        
+        .ies-table td:first-child {
+            font-family: 'IBM Plex Mono', monospace;
+            color: var(--brown);
+        }
+        
+        .risk-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: 1px solid;
+        }
+        
+        .risk-badge.muy-bajo { 
+            background: #e8f5e9; 
+            color: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+        .risk-badge.bajo { 
+            background: #e3f2fd; 
+            color: var(--accent-blue);
+            border-color: var(--accent-blue);
+        }
+        .risk-badge.medio { 
+            background: #fff8e1; 
+            color: var(--accent-amber);
+            border-color: var(--accent-amber);
+        }
+        .risk-badge.alto { 
+            background: #ffebee; 
+            color: var(--accent-red);
+            border-color: var(--accent-red);
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           API DOCS - Estilo código/terminal
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .api-endpoint {
+            background: var(--charcoal);
+            padding: 16px 20px;
+            margin: 12px 0;
+            border-left: 4px solid #7fcd91;
+        }
+        
+        .api-endpoint code {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1rem;
+            color: #7fcd91;
+        }
+        
+        .api-endpoint p {
+            margin-top: 8px;
+            font-size: 0.85rem;
+            color: #aaa;
+        }
+        
+        .code-block {
+            background: var(--black);
+            color: #b5bd68;
+            padding: 20px;
+            margin: 15px 0;
+            overflow-x: auto;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.8;
+            border: 2px solid var(--charcoal);
+        }
+        
+        .code-block .comment { color: #969896; }
+        .code-block .string { color: #b5bd68; }
+        .code-block .keyword { color: #b294bb; }
+        .code-block .function { color: #81a2be; }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           LOADING - Indicador retro
+        ══════════════════════════════════════════════════════════════════ */
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--beige);
+            border-top-color: var(--brown);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        .loading p {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--brown);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           FOOTER - Pie de página minimalista
+        ══════════════════════════════════════════════════════════════════ */
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-top: 2px solid var(--beige);
+            background: var(--cream-dark);
+        }
+        
+        footer p {
+            font-size: 0.8rem;
+            color: var(--brown);
+            line-height: 2;
+        }
+        
+        footer a {
+            color: var(--charcoal);
+            text-decoration: none;
+            border-bottom: 1px solid var(--brown-light);
+        }
+        
+        footer a:hover {
+            border-bottom-color: var(--charcoal);
+        }
+        
+        /* ══════════════════════════════════════════════════════════════════
+           RESPONSIVE
+        ══════════════════════════════════════════════════════════════════ */
+        
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.3rem; letter-spacing: 1px; }
+            .stat-card .number { font-size: 1.6rem; }
+            .risk-percentage { font-size: 2.5rem; }
+            .tab-btn { padding: 10px 16px; font-size: 0.75rem; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alerta Estudiantil Colombia</h1>
+        <p>Sistema de Prediccion de Desercion Estudiantil con Machine Learning</p>
+        <span class="badge">DATOS SPADIES - MEN COLOMBIA</span>
+    </header>
+    
+    <div class="container">
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('dashboard')">
+                Dashboard
+            </button>
+            <button class="tab-btn" onclick="showTab('calculadora')">
+                Calculadora
+            </button>
+            <button class="tab-btn" onclick="showTab('ranking')">
+                Ranking IES
+            </button>
+            <button class="tab-btn" onclick="showTab('api')">
+                API
+            </button>
+        </div>
+        
+        <!-- Dashboard Tab -->
+        <div id="dashboard" class="tab-content active">
+            <div class="card">
+                <h2>Estadisticas Nacionales 2023</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="number">288</span>
+                        <span class="label">Instituciones Registradas</span>
+                    </div>
+                    <div class="stat-card warning">
+                        <span class="number">15.3%</span>
+                        <span class="label">Desercion Anual Promedio</span>
+                    </div>
+                    <div class="stat-card danger">
+                        <span class="number">46.3%</span>
+                        <span class="label">Desercion Acumulada</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">38.1%</span>
+                        <span class="label">Tasa de Graduacion</span>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <canvas id="chartDesercion"></canvas>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Por Nivel de Formacion</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-card danger">
+                        <span class="number">51.6%</span>
+                        <span class="label">Desercion TyT</span>
+                    </div>
+                    <div class="stat-card warning">
+                        <span class="number">41.0%</span>
+                        <span class="label">Desercion Universitario</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">31.3%</span>
+                        <span class="label">Graduacion TyT</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">44.8%</span>
+                        <span class="label">Graduacion Universitario</span>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <canvas id="chartNivel"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Calculadora Tab -->
+        <div id="calculadora" class="tab-content">
+            <div class="card">
+                <h2>Calculadora de Riesgo</h2>
+                <p style="margin-bottom: 25px; color: var(--brown); font-size: 0.9rem;">
+                    Ingresa tus datos para conocer tu riesgo de desercion. Tu informacion no se almacena.
+                </p>
+                
+                <form id="prediccionForm">
+                    <div class="form-grid">
+                        <!-- Datos Académicos -->
+                        <div class="form-section">
+                            <h3>Datos Academicos</h3>
+                            
+                            <div class="form-group">
+                                <label>Promedio Academico (0.0 - 5.0)</label>
+                                <input type="number" id="promedio" min="0" max="5" step="0.1" value="3.5" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Porcentaje de Asistencia (%)</label>
+                                <input type="number" id="asistencia" min="0" max="100" value="80" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Creditos Aprobados</label>
+                                <input type="number" id="creditosAprobados" min="0" value="45" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Creditos Totales Matriculados</label>
+                                <input type="number" id="creditosTotales" min="1" value="60" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Semestre Actual</label>
+                                <select id="semestre" required>
+                                    <option value="1">1er Semestre</option>
+                                    <option value="2">2do Semestre</option>
+                                    <option value="3">3er Semestre</option>
+                                    <option value="4" selected>4to Semestre</option>
+                                    <option value="5">5to Semestre</option>
+                                    <option value="6">6to Semestre</option>
+                                    <option value="7">7mo Semestre</option>
+                                    <option value="8">8vo Semestre</option>
+                                    <option value="9">9no Semestre</option>
+                                    <option value="10">10mo Semestre</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Nivel de Formacion</label>
+                                <select id="nivel" required>
+                                    <option value="Universitario">Universitario</option>
+                                    <option value="TyT">Tecnico/Tecnologico (TyT)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Datos Socioeconómicos -->
+                        <div class="form-section">
+                            <h3>Datos Socioeconomicos</h3>
+                            
+                            <div class="form-group">
+                                <label>Estrato Socioeconomico</label>
+                                <select id="estrato" required>
+                                    <option value="1">Estrato 1</option>
+                                    <option value="2">Estrato 2</option>
+                                    <option value="3" selected>Estrato 3</option>
+                                    <option value="4">Estrato 4</option>
+                                    <option value="5">Estrato 5</option>
+                                    <option value="6">Estrato 6</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Edad</label>
+                                <input type="number" id="edad" min="15" max="80" value="22" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Distancia al Campus (km)</label>
+                                <input type="number" id="distancia" min="0" max="200" step="0.5" value="10" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Horas semanales en plataforma virtual</label>
+                                <input type="number" id="usoPlataforma" min="0" max="40" step="0.5" value="5" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Situacion adicional</label>
+                                <div class="checkbox-group">
+                                    <div class="checkbox-item">
+                                        <input type="checkbox" id="tieneBeca">
+                                        <label for="tieneBeca">Tengo beca o apoyo</label>
+                                    </div>
+                                    <div class="checkbox-item">
+                                        <input type="checkbox" id="trabaja">
+                                        <label for="trabaja">Trabajo actualmente</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button type="submit" class="btn">
+                            Calcular Riesgo
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Procesando...</p>
+                </div>
+                
+                <div class="result-container" id="resultado">
+                    <div class="result-header">
+                        <h3>Resultado del Analisis</h3>
+                    </div>
+                    <div class="result-body">
+                        <div class="risk-percentage" id="riskPercentage">0%</div>
+                        <div class="risk-label" id="riskLabel">Calculando...</div>
+                        
+                        <div class="result-section">
+                            <h4>Factores Principales</h4>
+                            <ul class="factors-list" id="factoresList"></ul>
+                        </div>
+                        
+                        <div class="result-section">
+                            <h4>Recomendaciones</h4>
+                            <ul class="recommendations-list" id="recomendacionesList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ranking Tab -->
+        <div id="ranking" class="tab-content">
+            <div class="card">
+                <h2>Ranking de Instituciones</h2>
+                
+                <div style="margin-bottom: 20px;">
+                    <button class="btn btn-small" onclick="cargarIES('asc')" style="margin-right: 8px;">
+                        Menor Desercion
+                    </button>
+                    <button class="btn btn-small" onclick="cargarIES('desc')">
+                        Mayor Desercion
+                    </button>
+                </div>
+                
+                <div class="loading" id="loadingIES">
+                    <div class="spinner"></div>
+                    <p>Cargando...</p>
+                </div>
+                
+                <table class="ies-table" id="tablaIES" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Institucion</th>
+                            <th>TDA 2023</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="iesBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- API Tab -->
+        <div id="api" class="tab-content">
+            <div class="card">
+                <h2>API Publica REST</h2>
+                <p style="margin-bottom: 20px; color: var(--brown); font-size: 0.9rem;">
+                    Accede a los datos de desercion estudiantil programaticamente.
+                </p>
+                
+                <h3 style="font-family: 'IBM Plex Mono', monospace; font-size: 0.9rem; margin-top: 25px; color: var(--charcoal); text-transform: uppercase; letter-spacing: 1px;">Endpoints</h3>
+                
+                <div class="api-endpoint">
+                    <code>GET /stats</code>
+                    <p>Estadisticas nacionales de desercion</p>
+                </div>
+                
+                <div class="api-endpoint">
+                    <code>POST /predict</code>
+                    <p>Predice riesgo de desercion de un estudiante</p>
+                </div>
+                
+                <div class="api-endpoint">
+                    <code>GET /ies</code>
+                    <p>Lista instituciones por tasa de desercion</p>
+                </div>
+                
+                <div class="api-endpoint">
+                    <code>GET /ies/{codigo}</code>
+                    <p>Informacion de una institucion especifica</p>
+                </div>
+                
+                <h3 style="font-family: 'IBM Plex Mono', monospace; font-size: 0.9rem; margin-top: 30px; color: var(--charcoal); text-transform: uppercase; letter-spacing: 1px;">Documentacion</h3>
+                <p style="margin: 15px 0;">
+                    <a href="/docs" target="_blank" class="btn btn-small">
+                        Abrir Swagger UI
+                    </a>
+                </p>
+                
+                <h3 style="font-family: 'IBM Plex Mono', monospace; font-size: 0.9rem; margin-top: 30px; color: var(--charcoal); text-transform: uppercase; letter-spacing: 1px;">Ejemplo Python</h3>
+                <div class="code-block"><span class="keyword">import</span> requests
+
+<span class="comment"># Obtener estadisticas</span>
+response = requests.get(<span class="string">"http://localhost:8000/stats"</span>)
+stats = response.json()
+<span class="function">print</span>(f<span class="string">"Desercion: {stats['tda_promedio']}%"</span>)
+
+<span class="comment"># Predecir riesgo</span>
+estudiante = {
+    <span class="string">"promedio_academico"</span>: 3.2,
+    <span class="string">"asistencia"</span>: 75,
+    <span class="string">"creditos_aprobados"</span>: 45,
+    <span class="string">"creditos_totales"</span>: 60,
+    <span class="string">"estrato"</span>: 3,
+    <span class="string">"tiene_beca"</span>: <span class="keyword">False</span>,
+    <span class="string">"trabaja"</span>: <span class="keyword">True</span>,
+    <span class="string">"edad"</span>: 22,
+    <span class="string">"semestre"</span>: 4,
+    <span class="string">"uso_plataforma"</span>: 5,
+    <span class="string">"distancia_campus"</span>: 15,
+    <span class="string">"nivel_formacion"</span>: <span class="string">"Universitario"</span>
+}
+result = requests.post(<span class="string">"/predict"</span>, json=estudiante)
+<span class="function">print</span>(f<span class="string">"Riesgo: {result.json()['porcentaje_riesgo']}%"</span>)</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            Datos: <a href="https://www.mineducacion.gov.co" target="_blank">SPADIES - Ministerio de Educacion Nacional</a>
+            <br>
+            Proyecto Foro Machine Learning - UNIMINUTO 2025
+            <br>
+            <span style="font-size: 0.75rem;">Licencia MIT</span>
+        </p>
+    </footer>
+    
+    <script>
+        // API Base URL - cambiar en producción
+        const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+            ? 'http://localhost:8000'
+            : '';
+        
+        // Paleta retro para gráficas
+        const COLORS = {
+            red: '#c44536',
+            amber: '#d4944c',
+            green: '#588157',
+            blue: '#457b9d',
+            gray: '#6b5b4f'
+        };
+        
+        // Tab Navigation
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+            
+            if (tabId === 'ranking') {
+                cargarIES('asc');
+            }
+        }
+        
+        // Charts con estilo retro
+        function initCharts() {
+            // Configuración global de Chart.js - estilo retro
+            Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+            Chart.defaults.font.size = 11;
+            Chart.defaults.color = '#6b5b4f';
+            
+            // Chart de deserción histórica
+            new Chart(document.getElementById('chartDesercion'), {
+                type: 'line',
+                data: {
+                    labels: ['2019', '2020', '2021', '2022', '2023'],
+                    datasets: [{
+                        label: 'Desercion Anual (%)',
+                        data: [9.5, 10.2, 9.8, 9.03, 8.97],
+                        borderColor: COLORS.red,
+                        backgroundColor: 'rgba(196, 69, 54, 0.1)',
+                        fill: true,
+                        tension: 0.3,
+                        borderWidth: 2,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#fff',
+                        pointBorderWidth: 2
+                    }, {
+                        label: 'Ausencia Intersemestral (%)',
+                        data: [13.2, 14.1, 13.5, 12.54, 12.40],
+                        borderColor: COLORS.amber,
+                        backgroundColor: 'rgba(212, 148, 76, 0.1)',
+                        fill: true,
+                        tension: 0.3,
+                        borderWidth: 2,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#fff',
+                        pointBorderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'EVOLUCION INDICADORES 2019-2023',
+                            font: { size: 12, weight: '600' },
+                            padding: { bottom: 20 }
+                        },
+                        legend: {
+                            position: 'bottom',
+                            labels: { padding: 20, usePointStyle: true }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            grid: { color: 'rgba(107, 91, 79, 0.1)' }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+            
+            // Chart por nivel
+            new Chart(document.getElementById('chartNivel'), {
+                type: 'bar',
+                data: {
+                    labels: ['Tecnico/Tecnologico', 'Universitario'],
+                    datasets: [{
+                        label: 'Desercion Acumulada (%)',
+                        data: [51.64, 40.98],
+                        backgroundColor: [COLORS.red, COLORS.amber],
+                        borderColor: ['#9c3529', '#b5792a'],
+                        borderWidth: 2
+                    }, {
+                        label: 'Graduacion Acumulada (%)',
+                        data: [31.31, 44.84],
+                        backgroundColor: [COLORS.green, COLORS.blue],
+                        borderColor: ['#3d5a3f', '#2d5a73'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'DESERCION VS GRADUACION POR NIVEL 2023',
+                            font: { size: 12, weight: '600' },
+                            padding: { bottom: 20 }
+                        },
+                        legend: {
+                            position: 'bottom',
+                            labels: { padding: 20, usePointStyle: true }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 60,
+                            grid: { color: 'rgba(107, 91, 79, 0.1)' }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // Form submission
+        document.getElementById('prediccionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const loading = document.getElementById('loading');
+            const resultado = document.getElementById('resultado');
+            
+            loading.style.display = 'block';
+            resultado.style.display = 'none';
+            
+            const data = {
+                promedio_academico: parseFloat(document.getElementById('promedio').value),
+                asistencia: parseFloat(document.getElementById('asistencia').value),
+                creditos_aprobados: parseInt(document.getElementById('creditosAprobados').value),
+                creditos_totales: parseInt(document.getElementById('creditosTotales').value),
+                estrato: parseInt(document.getElementById('estrato').value),
+                tiene_beca: document.getElementById('tieneBeca').checked,
+                trabaja: document.getElementById('trabaja').checked,
+                edad: parseInt(document.getElementById('edad').value),
+                semestre: parseInt(document.getElementById('semestre').value),
+                uso_plataforma: parseFloat(document.getElementById('usoPlataforma').value),
+                distancia_campus: parseFloat(document.getElementById('distancia').value),
+                nivel_formacion: document.getElementById('nivel').value
+            };
+            
+            try {
+                const response = await fetch(`${API_URL}/predict`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                // Mostrar resultado
+                loading.style.display = 'none';
+                resultado.style.display = 'block';
+                
+                // Clasificación y colores
+                resultado.className = 'result-container risk-' + result.clasificacion.toLowerCase();
+                
+                document.getElementById('riskPercentage').textContent = result.porcentaje_riesgo + '%';
+                document.getElementById('riskLabel').textContent = 'Riesgo ' + result.clasificacion;
+                
+                // Factores
+                const factoresList = document.getElementById('factoresList');
+                factoresList.innerHTML = '';
+                result.factores_principales.forEach(factor => {
+                    const li = document.createElement('li');
+                    const marker = factor.impacto > 0 ? '[!]' : '[+]';
+                    li.textContent = `${marker} ${factor.descripcion}`;
+                    factoresList.appendChild(li);
+                });
+                
+                // Recomendaciones
+                const recomendacionesList = document.getElementById('recomendacionesList');
+                recomendacionesList.innerHTML = '';
+                result.recomendaciones.forEach((rec, i) => {
+                    const li = document.createElement('li');
+                    li.textContent = `${i + 1}. ${rec}`;
+                    recomendacionesList.appendChild(li);
+                });
+                
+            } catch (error) {
+                loading.style.display = 'none';
+                alert('Error al conectar con el servidor. Asegúrate de que la API está corriendo en localhost:8000');
+                console.error(error);
+            }
+        });
+        
+        // Cargar IES
+        async function cargarIES(orden) {
+            const loading = document.getElementById('loadingIES');
+            const tabla = document.getElementById('tablaIES');
+            const tbody = document.getElementById('iesBody');
+            
+            loading.style.display = 'block';
+            tabla.style.display = 'none';
+            
+            try {
+                const response = await fetch(`${API_URL}/ies?limite=20&orden=${orden}`);
+                const data = await response.json();
+                
+                tbody.innerHTML = '';
+                data.instituciones.forEach((ies, index) => {
+                    const tr = document.createElement('tr');
+                    
+                    let badgeClass = 'bajo';
+                    if (ies.clasificacion_desercion === 'Alto') badgeClass = 'alto';
+                    else if (ies.clasificacion_desercion === 'Medio') badgeClass = 'medio';
+                    else if (ies.clasificacion_desercion === 'Muy Bajo') badgeClass = 'muy-bajo';
+                    
+                    tr.innerHTML = `
+                        <td>${index + 1}</td>
+                        <td>${ies.nombre}</td>
+                        <td>${ies.tda_2023.toFixed(2)}%</td>
+                        <td><span class="risk-badge ${badgeClass}">${ies.clasificacion_desercion}</span></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+                
+                loading.style.display = 'none';
+                tabla.style.display = 'table';
+                
+            } catch (error) {
+                loading.style.display = 'none';
+                tabla.innerHTML = '<tbody><tr><td colspan="4" style="text-align: center; padding: 40px;">Error al cargar datos. Asegúrate de que la API está corriendo.</td></tr></tbody>';
+                tabla.style.display = 'table';
+                console.error(error);
+            }
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            initCharts();
+        });
+    </script>
+</body>
+</html>
