@@ -523,10 +523,14 @@ def generar_recomendaciones(estudiante: EstudianteInput, clasificacion: str) -> 
 frontend_path = BASE_DIR / "frontend"
 if frontend_path.exists():
     app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
-    
-    @app.get("/app", tags=["Frontend"])
-    async def serve_frontend():
-        return FileResponse(str(frontend_path / "index.html"))
+
+@app.get("/app", tags=["Frontend"])
+async def serve_frontend():
+    """Sirve la aplicación web frontend"""
+    index_file = frontend_path / "index.html"
+    if index_file.exists():
+        return FileResponse(str(index_file))
+    raise HTTPException(status_code=404, detail="Frontend no disponible")
 
 
 if __name__ == "__main__":
