@@ -18,9 +18,6 @@ COPY . .
 # Crear directorios necesarios
 RUN mkdir -p models data
 
-# Entrenar modelo (opcional - descomentar si se quiere incluir en la imagen)
-# RUN python train_model.py
-
 # Variables de entorno
 ENV PORT=8000
 ENV HOST=0.0.0.0
@@ -28,5 +25,5 @@ ENV HOST=0.0.0.0
 # Exponer puerto
 EXPOSE 8000
 
-# Comando de inicio
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Comando de inicio (Render usa $PORT automáticamente)
+CMD uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}
