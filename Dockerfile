@@ -26,4 +26,4 @@ ENV HOST=0.0.0.0
 EXPOSE 8000
 
 # Comando de inicio (Render usa $PORT automáticamente)
-CMD uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}
+CMD ["/bin/sh", "-c", "uvicorn api.main:app --host 0.0.0.0 --port $PORT"]
