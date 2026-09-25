@@ -3,8 +3,7 @@
     "api/index.py": {
       "maxDuration": 60,
       "runtime": "python3.11",
-      "includeFiles": ["api/index.py"],
-      "excludeFiles": ["**/__pycache__/**", "**/*.pyc", "**/*.md"]
+      "includeFiles": "api/index.py"
     }
   }
 }
