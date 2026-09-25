@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predictor de Deserción Estudiantil</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #1a202c;
+      margin-bottom: 0.4rem;
+    }
+    header p {
+      color: #718096;
+      font-size: 0.95rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      margin-bottom: 1.5rem;
+    }
+    .card h2 {
+      font-size: 1rem;
+      color: #2d3748;
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e2e8f0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 500px) { .grid { grid-template-columns: 1fr; } }
+    .field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #4a5568;
+      margin-bottom: 0.3rem;
+    }
+    .field input, .field select {
+      width: 100%;
+      padding: 0.55rem 0.75rem;
+      border: 1.5px solid #cbd5e0;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      color: #2d3748;
+      background: #f7fafc;
+      transition: border-color 0.2s;
+    }
+    .field input:focus, .field select:focus {
+      outline: none;
+      border-color: #4299e1;
+      background: #fff;
+    }
+    button[type="submit"] {
+      width: 100%;
+      padding: 0.85rem;
+      background: #3182ce;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 0.5rem;
+    }
+    button[type="submit"]:hover { background: #2b6cb0; }
+    button[type="submit"]:disabled { background: #a0aec0; cursor: not-allowed; }
+
+    #result { display: none; }
+    .result-box {
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .result-nivel {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 0.3rem;
+    }
+    .result-prob {
+      font-size: 3rem;
+      font-weight: 900;
+      margin: 0.5rem 0;
+    }
+    .result-rec {
+      font-size: 0.9rem;
+      margin-top: 0.8rem;
+      line-height: 1.5;
+      opacity: 0.85;
+    }
+    .spinner {
+      display: none;
+      text-align: center;
+      padding: 1rem;
+      color: #718096;
+    }
+    .error-box {
+      display: none;
+      background: #fff5f5;
+      border: 1.5px solid #fc8181;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      color: #c53030;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🎓 Predictor de Deserción Estudiantil</h1>
+    <p>Ingresa los datos del estudiante para calcular el riesgo de deserción</p>
+  </header>
+
+  <form id="form">
+
+    <!-- ACADÉMICO -->
+    <div class="card">
+      <h2>📚 Datos Académicos</h2>
+      <div class="grid">
+        <div class="field">
+          <label>Promedio de notas (0–5)</label>
+          <input type="number" name="promedio_notas" value="3.0" step="0.1" min="0" max="5" required />
+        </div>
+        <div class="field">
+          <label>Asistencia (%)</label>
+          <input type="number" name="asistencia_porcentaje" value="75" step="0.1" min="0" max="100" required />
+        </div>
+        <div class="field">
+          <label>Ratio créditos aprobados (0–1)</label>
+          <input type="number" name="ratio_creditos_aprobados" value="0.75" step="0.01" min="0" max="1" required />
+        </div>
+        <div class="field">
+          <label>Materias perdidas</label>
+          <input type="number" name="materias_perdidas" value="1" min="0" required />
+        </div>
+        <div class="field">
+          <label>Semestre actual</label>
+          <input type="number" name="semestre" value="1" min="1" max="20" required />
+        </div>
+        <div class="field">
+          <label>Horas en plataforma / semana</label>
+          <input type="number" name="horas_plataforma_semana" value="5" step="0.5" min="0" max="40" required />
+        </div>
+        <div class="field">
+          <label>Interacciones con tutorías</label>
+          <input type="number" name="interacciones_tutorias" value="2" min="0" required />
+        </div>
+        <div class="field">
+          <label>Actividades extracurriculares</label>
+          <input type="number" name="actividades_extracurriculares" value="2" min="0" required />
+        </div>
+      </div>
+    </div>
+
+    <!-- SOCIOECONÓMICO -->
+    <div class="card">
+      <h2>💼 Datos Socioeconómicos</h2>
+      <div class="grid">
+        <div class="field">
+          <label>Estrato socioeconómico (1–6)</label>
+          <select name="estrato">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Financiamiento</label>
+          <select name="financiamiento">
+            <option value="propio" selected>Propio</option>
+            <option value="credito_icetex">Crédito ICETEX</option>
+            <option value="beca_completa">Beca completa</option>
+            <option value="beca_parcial">Beca parcial</option>
+            <option value="patrocinio">Patrocinio</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>¿Trabaja?</label>
+          <select name="trabaja">
+            <option value="0" selected>No</option>
+            <option value="1">Sí</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Horas de trabajo / semana</label>
+          <input type="number" name="horas_trabajo_semana" value="0" step="1" min="0" max="80" required />
+        </div>
+      </div>
+    </div>
+
+    <!-- DEMOGRÁFICO -->
+    <div class="card">
+      <h2>👤 Datos Demográficos</h2>
+      <div class="grid">
+        <div class="field">
+          <label>Edad</label>
+          <input type="number" name="edad" value="21" min="17" max="100" required />
+        </div>
+        <div class="field">
+          <label>Género</label>
+          <select name="genero">
+            <option value="F" selected>Femenino</option>
+            <option value="M">Masculino</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Distancia al campus (km)</label>
+          <input type="number" name="distancia_campus_km" value="10" step="0.5" min="0" max="500" required />
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" id="btn">Calcular Riesgo de Deserción</button>
+  </form>
+
+  <div class="spinner" id="spinner">⏳ Calculando...</div>
+  <div class="error-box" id="error"></div>
+
+  <div id="result">
+    <div class="card">
+      <h2>📊 Resultado</h2>
+      <div class="result-box" id="result-box">
+        <div class="result-nivel" id="nivel"></div>
+        <div class="result-prob" id="prob"></div>
+        <div>Probabilidad de deserción</div>
+        <div class="result-rec" id="rec"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById('form');
+  const btn = document.getElementById('btn');
+  const spinner = document.getElementById('spinner');
+  const errorBox = document.getElementById('error');
+  const resultDiv = document.getElementById('result');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    btn.disabled = true;
+    spinner.style.display = 'block';
+    errorBox.style.display = 'none';
+    resultDiv.style.display = 'none';
+
+    const fd = new FormData(form);
+    const payload = {};
+    for (const [k, v] of fd.entries()) {
+      payload[k] = isNaN(v) || v === '' ? v : Number(v);
+    }
+
+    try {
+      const res = await fetch('/api/predict', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.detail || 'Error en el servidor');
+      }
+      const data = await res.json();
+
+      document.getElementById('result-box').style.background = data.color + '22';
+      document.getElementById('result-box').style.border = `2px solid ${data.color}`;
+      document.getElementById('result-box').style.color = data.color;
+      document.getElementById('nivel').textContent = `Riesgo ${data.nivel_riesgo}`;
+      document.getElementById('prob').textContent = `${data.porcentaje_riesgo}%`;
+      document.getElementById('rec').textContent = data.recomendacion;
+      resultDiv.style.display = 'block';
+      resultDiv.scrollIntoView({ behavior: 'smooth' });
+    } catch (err) {
+      errorBox.textContent = `Error: ${err.message}`;
+      errorBox.style.display = 'block';
+    } finally {
+      btn.disabled = false;
+      spinner.style.display = 'none';
+    }
+  });
+</script>
+</body>
+</html>
