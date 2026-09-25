@@ -209,15 +209,11 @@ def _predict_response(student: StudentInput) -> Dict[str, Any]:
     }
 
 
-# Routes with and without /api prefix (Vercel rewrites send full path)
 @app.get("/")
-@app.get("/api")
-@app.get("/api/")
 def health():
     return _health_response()
 
 
 @app.post("/predict")
-@app.post("/api/predict")
 def predict(student: StudentInput) -> Dict[str, Any]:
     return _predict_response(student)
