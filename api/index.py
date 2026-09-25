@@ -176,13 +176,11 @@ app.add_middleware(
 )
 
 
-@app.get("/", tags=["Health"])
-def health():
+def _health_response():
     return {"status": "ok", "message": "API de Deserción Estudiantil v2.0"}
 
 
-@app.post("/predict", tags=["Predicción"])
-def predict(student: StudentInput) -> Dict[str, Any]:
+def _predict_response(student: StudentInput) -> Dict[str, Any]:
     pre, model = get_model()
     df = pd.DataFrame([student.model_dump()])
     X = pre.transform(df)
@@ -209,3 +207,17 @@ def predict(student: StudentInput) -> Dict[str, Any]:
         "prediccion": int(prob >= 0.5),
         "recomendacion": recomendacion,
     }
+
+
+# Routes with and without /api prefix (Vercel rewrites send full path)
+@app.get("/")
+@app.get("/api")
+@app.get("/api/")
+def health():
+    return _health_response()
+
+
+@app.post("/predict")
+@app.post("/api/predict")
+def predict(student: StudentInput) -> Dict[str, Any]:
+    return _predict_response(student)
